@@ -1,21 +1,9 @@
 # Results
 
-Fig. \@ref(fig:fig1) psum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Relating TX1day T' variability to component variability
 
-```{r fig1, fig.cap='caption', out.width='80%', fig.align='center', echo=FALSE}
-plot(cars)
-```
+## Comparing contributions to TX1day T' mean and variance
 
-Tab. \@ref(tab:tab1) psum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Inter-component variability structure
 
-```{r tab1}
-require(knitr)
-require(kableExtra)
-kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE) %>% 
-  kable_styling(latex_options = "striped")
-```
-
+## Trajectory analysis with ML

@@ -1,18 +1,32 @@
 # Introduction
 
-The R package `bookdownplus` [@Reference] , [@HamF85], @StaWW91 [p. 15] is an
-extension of `bookdown`. Indeed, you can also just dispay the year from 
-the reference: I.e. Stahel was right [-@StaWW91]. You can find all supported
-citation formats [here](http://pandoc.org/MANUAL.html#citations). Here are 
-some: 
+## Motivation
 
-* [@StaWW91]
-* [see @StaWW91 p.3]
-* Chollet [-@StaWW91, p.3] says
-* @StaWW91 [p. 3]
+In recent years, near-surface hot extremes have globally become increasingly more important. They impact human health with often high mortality rates in certain demographics (REF, REF, REF); can be damaging to agricultural and ecological systems through productivity decreases and heat stress (Teixeira, REF, REF); and may pressure national economies by increasing energy demands (Perera) compounded with power infrastructure damage (Entricken), as well as lowering labour productivity (Garcia-Leon). Furthermore, climate change is expected to exacerbate hot extreme impacts through an increase in the frequency of hot extremes as well as their intensity (R. Slater et al., 2021; E. Fischer et al. 2021; V. Thompson et al., 2022). There is thus a need for robust process understanding of the drivers of hot extremes to guide emergency planning and mitigation strategies. 
 
+Globally, heat-waves and hot extreme events contribute the largest risks to human societies (maybe too strong, but can find a good source). 
 
-It is a collection of multiple templates on the basis
-of LaTeX, which are tailored so that I can work happily under the umbrella of
-`bookdown`. `bookdownplus` helps you write academic journal articles, guitar
-books, chemical equations, mails, calendars, and diaries.
+Coupled with increasing mean global temperatures, recent record-shattering events highlight the importance in understanding not only the evolution and drivers of typical hot extremes, but also their variability. The Pacific North-West 2021 event is particularly illustrative: it was hard to predict with no ensemble member resolving such intense temperature 10 days before (Hai Lin et al., 2022); 
+
+with models / forecasters not expecting temperatures that went above return period estimations (REF). Uncovering the differences that separate such events from lower-intensity hot extremes is helpful to understand how they may change under climate change. 
+
+## Related work 
+
+In order to present a holistic review of existing literature on hot extremes, their development is examined with three heat-generating mechanisms: advection involves the horizontal transport of warmer air into a cooler air mass; adiabatic heating arises from descending air that compresses and thus heats; diabatic heating involves radiative effects and sensible heat fluxes from the Earth's surface. The absence of the reverse mechanisms (cold air advection, ascending air and diabatic cooling) may also contribute to the formation of hot extremes. This characterisation providing a uniform basis to discuss atmospheric phenomena linked to hot extreme evolution and suggests a methodology, discussed in Methods, to quantify the contribution of these physical processes to specific events. 
+
+In the mid-latitudes, the major weather regime influencing hot extremes is atmospheric blocking, a pattern characterized by persistent anticyclonic activity that prevents the influence of the prevailing flows (A. Lupo, 2020). Over Central and Western Europe, atmospheric blocking leads to regions of large subsidence and fair weather, further promoting strong radiative heating (L. Kautz, et al, 2022). Quantifying the co-location of atmospheric blocking and hot extremes has however shown large spatial variability both in the Northern (S. Pfahl and H. Wernli, 2012; L. Brunner et al., 2018) and Southern Hemisphere mid-latitudes (A. Pezza et al., 2011). WHAT ABOUT THE TROPICS. For polar latitudes, a case-study on the March 2022 East Antarctica heat extreme shows that intense atmospheric blocking led the weakening of the ice-sheet temperature inversion, intensifying adiabatic heating from subsiding air. 
+
+Soil-dryness has been shown to be both a major driver of hot extreme events as well as exacerbate atmospheric blocking condition. Soil moisture deficit is understood to increase surface sensible heat fluxes, in turn "leading to diurnal convection favouring the entrainment of warm air, and the formation of deep and warm nocturnal residual layers allowed the heat to re-enter the mixed layer in the following days" (D. Miralles et al., 2014). M. Vogel et al. (2017) quantified these effects, finding that more than 70\% of increase in TX1day magnitude in Central Europe and Central North America, and around 50\% in Amazonia, Northern Australia and Southern Africa.
+
+Marine heatwaves and TX1day events are understood to evolve ... E. Oliver et al., 2020
+
+In addition to understanding the development of hot extremes, many studies have focused on the influence of multi- and inter-decadal variability. TO DO
+
+Beyond understanding the mean behaviour of hot extremes, a limited number of studies have investigated the variability of hot extremes at local to regional spatial scales. Over Europe, E. Fischer and C. Schar (2008) quantified the changes in hot extreme variability with respect the processes associated with inter-annual variability, intra-seasonal variability and the seasonal variability of summer months. L. Suarez-Gutierrez et al. (2020) instead suggests attributing variability changes to dynamical and thermodynamical sources, concluding that dynamical mechanisms, encompassing effects of atmospheric blocking, are the main drivers of hot extreme variability. 
+
+TALK ABOUT THE METHODOLOGIES USED IN OTHER EXTREME RESEARCH: 
+A. Casanueva et al. (2014) propose investigating the variability of extreme precipitation events through large-scale teleconnection patterns, such as the Southern Oscillation and the North Atlantic Oscillation, by trend analysis and correlation analysis. 
+
+The weather extremes literature has used two main methodologies: trajectory analysis such as Lagrangian tools (..., ..., ...) and sensitivity analysis. Trajectory analysis have been limited to 'manual' stuff (no ML) 
+
+Although a good general understanding of hot extreme evolution exists and more detailed assessments have been made regionally and for specific high-impact events, there then exists a knowledge-gap in quantifying the contribution of known physical processes to hot extreme magnitude variability globally. This manuscripts attempts to close this gap by first proposing a systematic analysis of second-moment characteristics of hot extreme events and second applying state-of-the-art deep-learning methods to uncover evolutionary features influencing their magnitudes. 
