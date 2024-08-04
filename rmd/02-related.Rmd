@@ -1,0 +1,44 @@
+# Related work 
+
+## Meteorological background
+
+To begin this section, we acknowledge that literature in this field has employed varied, and a times contradictory, definitions of hot events. For the remaining of this report, a 'hot extreme event' will describe an anomalously high spike in near-surface temperature (with respect to the local climatology) occurring over the timescale of a day. A 'heatwave' will then describe an event of prolonged anomalously high near-surface temperature on the order of multiple days or weeks. In addition to reviewing literature on hot extremes, this section also discusses heatwave research as they, although being distinct, often evolve together. 
+
+To present a holistic review of existing literature, the temporal evolution of hot extremes and heatwaves is examined with regards to three heat-generating mechanisms: **advection** involves the horizontal transport of warmer air into a cooler air mass; **adiabatic heating** arises from descending air that compresses and thus heats; **diabatic heating** involves radiative effects including sensible heat fluxes from the Earth's surface. The absence of the reverse mechanisms (cold air advection, ascending air and diabatic cooling) may also contribute to the formation of hot extremes. This characterisation provides a uniform basis to discuss atmospheric phenomena linked to hot extreme evolution and suggests a methodology, later discussed, to quantify the contribution of these physical processes to specific events. 
+
+In the mid-latitudes, the major weather regime associated with hot extremes is atmospheric blocking - a pattern characterized by persistent anticyclonic activity that prevents the influence of the prevailing flows (A. Lupo, 2020). They develop regions of large subsidence and clear skies that promote strong radiative heating in summer (L. Kautz, et al, 2022). Indeed, atmospheric blocks co-locates with hot extremes, particularly well over the Northern (Northern: S. Pfahl and H. Wernli, 2012; L. Brunner et al., 2018) and Southern (A. Pezza et al., 2011) mid-latitudes, although with significant spatial variability and large land-ocean contrasts. Over Europe, Stefano et al. (2012) suggests that increased sensible heat fluxes from higher soil moisture content and/or hydrological pre-conditioning are partly responsible for the observed land patterns, while the land-ocean contrast may be explained by a lower temperature variability due to water's larger heat capacity. 
+
+In the polar latitudes, a diversity of atypical mechanisms may evolve due to the presence of snow and ice-sheets. Generally, an enhanced albedo effect implies lower diabatic heating and the temperature inversion created by a cold surface temperature limits adiabatic heating. Some studies have also suggested that intrusions of sub-polar air into the Arctic, such as by atmospheric rivers (AR) - corridors of rapidly ascending sub-tropical air that transport moisture and heat north/south-wards - may disturb the polar climate (Ma et al., 2017, Papritz et al., 2023). This may lead to increasing downward longwave radiation that accelerates sea-ice melting (Kapsch et al., 2013 Mortin et al., 2016) and advective warming at both lower and upper levels (Papritz et al., 2023). Indeed, a case-study on the March 2022 East Antarctica heat extreme shows that intense atmospheric blocking initiated by an AR led to the weakening of the ice-sheet temperature inversion, intensifying adiabatic heating from subsiding air (Wille et al., 2022). 
+
+In the tropics, atmospheric blocking conditions do not typically develop due to the absence of ???, although anti-cyclonic activity may still be a major synoptic driver. The limited literature on tropical hot extremes and heatwaves instead suggests a strong association of these events with dry land-conditions. In tropical Southern America, large anti-cyclonic systems with clear skies enhance radiative heating and reduce soil-moisture (Geirinhas et al., 2018; Costa et al., 2022). A low soil-moisture content over the tropics decreases the potential of latent cooling - the loss of heat due to evaporation - and increases sensible heat fluxes. Feedback loops between soil-moisture and the atmosphere may evolve, and are briefly discusses later.
+
+As introduced above, soil moisture is known to have a complex dependence with near-surface temperature in the form of positive feedback loops. For example, low soil-moisture content may be associated with increased sensible and decreased latent heating, which may reduce the potential for precipitation from deep convection and/or support a blocking high-pressure system, thus enhancing the dry conditions (Berg et al., 2013; Wang et al., 2019). In the context of climate change, Vogel et al. (2017) quantified the contribution of soil moisture - temperature feedbacks to regional increase in TX1day magnitude at more than 70\% in Central Europe and Central North America, and around 50\% in Amazonia, Northern Australia and Southern Africa. These mechanisms may evolve differently on small or relatively large temporal and spatial scales (McColl et al., 2019), further illustrating their complexity. A systematic and global analysis of their contribution to yearly hot extremes still lacks. 
+
+Hot extremes over oceans 
+
+
+## Variability of hot extreme events
+
+In addition to understanding the development of hot extremes, many studies have focused on the influence of multi- and inter-decadal variability. TO DO
+
+Beyond understanding the mean behaviour of hot extremes, a limited number of studies have investigated the variability of hot extremes at local to regional spatial scales. Over Europe, E. Fischer and C. Schar (2008) quantified the changes in hot extreme variability with respect the processes associated with inter-annual variability, intra-seasonal variability and the seasonal variability of summer months. L. Suarez-Gutierrez et al. (2020) instead suggests attributing variability changes to dynamical and thermodynamical sources, concluding that dynamical mechanisms, encompassing effects of atmospheric blocking, are the main drivers of hot extreme variability. 
+
+## Methods for hot extremes
+
+Two major approaches in the study of extremes more generally. 
+
+1) Sensitivity analysis 
+
+2) Trajectory anaylsis 
+
+
+A. Casanueva et al. (2014) propose investigating the variability of extreme precipitation events through large-scale teleconnection patterns, such as the Southern Oscillation and the North Atlantic Oscillation, by trend analysis and correlation analysis. 
+
+The weather extremes literature has used two main methodologies: trajectory analysis such as Lagrangian tools (..., ..., ...) and sensitivity analysis. Trajectory analysis have been limited to 'manual' stuff (no ML) 
+
+Although a good general understanding of hot extreme evolution exists and more detailed assessments have been made regionally and for specific high-impact events, there then exists a knowledge-gap in quantifying the contribution of known physical processes to hot extreme magnitude variability globally. This manuscripts attempts to close this gap by first proposing a systematic analysis of second-moment characteristics of hot extreme events and second applying state-of-the-art deep-learning methods to uncover evolutionary features influencing their magnitudes. 
+
+## EXTRA STUFF
+
+(probably too detailed, same references)
+In tropical Southern America, large anti-cyclonic systems (South Atlantic Subtropical High System) have been related to positive sea surface temperature anomalies of the South Atlantic and the weakening of the Intertropical Convergence Zone (ITCZ) and the South Atlantic Convergence Zone (SACZ) systems.

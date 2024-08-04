@@ -1,6 +1,5 @@
 # Methods
 
-
 ## Decomposition of TX1day anomalies and their yearly variance
 
 To this end, we focus on investigating yearly maxima of 1-day temperature anomaly averages, denoted TX1day. Using anomalies, rather than magnitudes, leads to a more natural interpretation of the components' contribution to extreme warming, since some processes of interest, such as warming from horizontal advection, arise due to climatological differences *** (explain better). The variation in TX1day and its relation to underlying physical processes is captured by using the decomposition of TX1day anomalies into contributions from horizontal advection, adiabatic warming and diabatic warming (1), according to M. Rothlisberger and L. Papritz (2023). These quantities are now referred to as the advective (adv), adiabatic (adiab) and diabatic (diab) temperature anomalies. The decomposition is derived with a Lagrangian perspective, meaning that it diagnostically evaluates the evolution of a parcel of air along its trajectory in 3D space and time.
@@ -8,7 +7,7 @@ To this end, we focus on investigating yearly maxima of 1-day temperature anomal
 At location $\mathbf{x}$ and some time $t_X$, the temperature anomaly $T'$ may be decomposed as follows:
 
 \begin{equation}
-\label{eq:1}
+\label{eq:t_decomp}
  \begin{split}
    T'(\mathbf{x},t_X)  & = - \int_{t_g}^{t_X} \frac{\partial \bar{T}}{\partial t} \, \text{d}\tau - \int_{t_g}^{t_X} \mathbf{\nu} \mathbf{\nabla}_h \bar{T} \, \text{d}\tau + \int_{t_g}^{t_X} \left[ \frac{\kappa T}{p} - \frac{\partial \bar{T}}{\partial p}\right] \omega \, \text{d}\tau + \int_{t_g}^{t_X} \left( \frac{p}{p_0} \right)^\kappa \frac{\text{D}\theta}{\text{D}t} \, \text{d}\tau   \\
    & = \qquad \text{seas} \qquad \, + \, \quad \quad \text{adv} \qquad \, \, + \qquad \qquad \text{adiab} \qquad \quad \,  + \qquad \quad \text{diab} 
@@ -21,17 +20,17 @@ To apply this decomposition for the study of hot extremes, LAGRANTO is employed 
 
 Evaluating the integrals involves two errors arising from discrete approximations of the continuous time domain: error 1 denotes the deviation from zero of $T'(\cdot ,t_g)$; error 2 denotes the remainder of the components, seasonality and error 1 subtracted from $T'$. These errors are usually small relative to hot extreme $T'$ magnitudes and are thus dropped from further analysis. In addition, since TX1day events evolve on sub-seasonal timescales, the seasonality term (seas) is small and is also dropped. These decisions are supported by Appendix A. 
 
-To extend the study of mean-behaviour of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of temperature anomaly that quantifies the contributions of physical processes on variability. For $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that $T'_i = $ adv$_i +$ adiab$_i + $ diab$_i$, we have that:
+To extend the study of mean-behaviour of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of temperature anomaly that quantifies the contributions of physical processes on variability. For $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i = \text{adv}_i +\text{adiab}_i +\text{diab}_i$, we have that:
 
 \begin{equation}
-\label{eq:2}
+\label{eq:var_decomp}
  \begin{split}
    V(\{ T' \}_{1:n})  & = V(\{ \text{adv} \}_{1:n} ) + V(\{ \text{adiab} \}_{1:n} ) + V(\{ \text{diab} \}_{1:n} ) + \\
    & \qquad Cov(\{ \text{adv} \}_{1:n} ,\{ \text{adiab} \}_{1:n}) + Cov(\{ \text{adv} \}_{1:n},\{ \text{diab} \}_{1:n}) + Cov(\{ \text{adiab} \}_{1:n},\{ \text{diab} \}_{1:n})
 \end{split}
 \end{equation}
 
-Applying \ref{eq:2} to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for a more intuitive comparison of second-moment contributions. 
+Applying (@eq-var_decomp) to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for a more intuitive comparison of second-moment contributions. 
 
 ## Principle Component Analysis
 
