@@ -2,24 +2,6 @@
 
 ## Decomposition of TX1day anomalies and their yearly variance
 
-To this end, we focus on investigating yearly maxima of 1-day temperature anomaly averages, denoted TX1day. Using anomalies, rather than magnitudes, leads to a more natural interpretation of the components' contribution to extreme warming, since some processes of interest, such as warming from horizontal advection, arise due to climatological differences *** (explain better). The variation in TX1day and its relation to underlying physical processes is captured by using the decomposition of TX1day anomalies into contributions from horizontal advection, adiabatic warming and diabatic warming (1), according to M. Rothlisberger and L. Papritz (2023). These quantities are now referred to as the advective (adv), adiabatic (adiab) and diabatic (diab) temperature anomalies. The decomposition is derived with a Lagrangian perspective, meaning that it diagnostically evaluates the evolution of a parcel of air along its trajectory in 3D space and time.
-
-At location $\mathbf{x}$ and some time $t_X$, the temperature anomaly $T'$ may be decomposed as follows:
-
-\begin{equation}
-\label{eq:t_decomp}
- \begin{split}
-   T'(\mathbf{x},t_X)  & = - \int_{t_g}^{t_X} \frac{\partial \bar{T}}{\partial t} \, \text{d}\tau - \int_{t_g}^{t_X} \mathbf{\nu} \mathbf{\nabla}_h \bar{T} \, \text{d}\tau + \int_{t_g}^{t_X} \left[ \frac{\kappa T}{p} - \frac{\partial \bar{T}}{\partial p}\right] \omega \, \text{d}\tau + \int_{t_g}^{t_X} \left( \frac{p}{p_0} \right)^\kappa \frac{\text{D}\theta}{\text{D}t} \, \text{d}\tau   \\
-   & = \qquad \text{seas} \qquad \, + \, \quad \quad \text{adv} \qquad \, \, + \qquad \qquad \text{adiab} \qquad \quad \,  + \qquad \quad \text{diab} 
-\end{split}
-\end{equation}
-
-where $\bar{T}$ the temperature climatology; $t_g < t_X$ genesis time, the time at which $T'$ was last zero; $\mathbf{\nu}$ the horizontal wind velocity; $\mathbf{\nabla}_h$ the horizontal temperature gradient; $p$ pressure; $\omega$ vertical velocity; $\theta$ potential temperature. 
-
-To apply this decomposition for the study of hot extremes, LAGRANTO is employed to compute back-trajectories of air parcels found near the surface of a location of a hot extreme event. Given data described section 3, for each year at each location, a total of 24 back-trajectories are obtained corresponding to the 3 lower model-levels for 8 timesteps with 3 hour intervals. Each trajectory is computed until genesis $t=t_g$ of the temperature anomaly of the parcel, up to a maximum of 120 time-steps. The final dataset is created by evaluating the integrals for each of the 24 trajectories and taking an average of the final decomposed temperature anomaly.
-
-Evaluating the integrals involves two errors arising from discrete approximations of the continuous time domain: error 1 denotes the deviation from zero of $T'(\cdot ,t_g)$; error 2 denotes the remainder of the components, seasonality and error 1 subtracted from $T'$. These errors are usually small relative to hot extreme $T'$ magnitudes and are thus dropped from further analysis. In addition, since TX1day events evolve on sub-seasonal timescales, the seasonality term (seas) is small and is also dropped. These decisions are supported by Appendix A. 
-
 To extend the study of mean-behaviour of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of temperature anomaly that quantifies the contributions of physical processes on variability. For $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i = \text{adv}_i +\text{adiab}_i +\text{diab}_i$, we have that:
 
 \begin{equation}

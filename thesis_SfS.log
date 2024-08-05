@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  4 AUG 2024 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  5 AUG 2024 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,13 +790,16 @@ Package xcolor Warning: Incompatible color definition on input line 21.
 Package xcolor Warning: Incompatible color definition on input line 22.
 
 
-Package xcolor Warning: Incompatible color definition on input line 24.
+Package xcolor Warning: Incompatible color definition on input line 23.
 
 
-Package xcolor Warning: Incompatible color definition on input line 26.
+Package xcolor Warning: Incompatible color definition on input line 25.
 
 
 Package xcolor Warning: Incompatible color definition on input line 27.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
 
 )
 \tf@toc=\write5
@@ -906,38 +909,38 @@ Chapter 2.
 
 [9]
 
-[10
+[10]
+
+[11]
+
+[12
 
 ]
 Chapter 3.
 
-
-[11]
-Overfull \hbox (39.71672pt too wide) detected at line 509
+Overfull \hbox (39.71672pt too wide) detected at line 519
 []
  []
 
 
-Package natbib Warning: Citation `eq-var_decomp' on page 12 undefined on input 
-line 511.
-
-
-
-[12]
-
-Package xcolor Warning: Incompatible color definition on input line 532.
+Package natbib Warning: Citation `eq-var_decomp' on page 13 undefined on input 
+line 521.
 
 
 
 [13]
 
-[14
+Package xcolor Warning: Incompatible color definition on input line 542.
 
-]
+
+
+[14]
 Chapter 4.
 
 
-[15]
+[15
+
+]
 
 [16
 
@@ -1013,44 +1016,44 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<pdf/confirmation-originality.pdf, id=322, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=327, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 6
-08.
+18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 6
-08.
+18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=325, page=1, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=330, page=1, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 608.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 608.
+ line 618.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 608.
+ line 618.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 608.
+ line 618.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 618.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 608.
+ line 618.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [27
 
@@ -1068,13 +1071,13 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
-(rerunfilecheck)             Checksum: 0B8B5E5C0AB4878F6E0CE9FC2A627330;4341.
+(rerunfilecheck)             Checksum: 4F7CBA30F39539D2461F1524A8E43E46;4494.
  ) 
 Here is how much of TeX's memory you used:
- 16404 strings out of 473904
- 256122 string characters out of 5725656
+ 16407 strings out of 473904
+ 256167 string characters out of 5725656
  1955908 words of memory out of 5000000
- 38824 multiletter control sequences out of 15000+600000
+ 38826 multiletter control sequences out of 15000+600000
  603498 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,19n,107p,1621b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1100,9 +1103,9 @@ cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on thesis_SfS.pdf (39 pages, 317487 bytes).
+Output written on thesis_SfS.pdf (39 pages, 321429 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
