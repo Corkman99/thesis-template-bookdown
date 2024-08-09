@@ -30,9 +30,9 @@ The weather extremes literature has used two main methodologies: sensitivity and
 
 **Sensitivity analysis** (SA) is the most widely adopted approach to study the effects of initial conditions and model parameters on outputs of a system. It involves running different experiments with simulation tools (including numerical and data-driven models) and assessing the changes in distribution of the response. Formally, sensitivity is defined as the partial derivative of the response with regards to a predictor of interest. It is then related to causality: if one assumes a linear structural model, sensitivity is a measure of the causal effect of a variable on the response. SA literature has considered both local and global measures of sensitivity. The former involves evaluating the sensitivity at a given predictor value and therefore cannot conclude general causal relationships without strong assumptions. The latter presents a difficult problem and different approaches have been proposed that include many typical statistical estimators (Razavi and Gupta, 2015).
 
-**Trajectory analysis** involves the analysis of changes to volumes of air - called parcels - along their flow within a dynamical system. Given a volume BLAH BLAH ... equations blah blah. 
+**Trajectory analysis** follows the changes to volumes of air - called parcels - along their flow within a dynamical system. In the context of extreme weather, it often involves the identification of an event within a numerical model and recursive calculation of the flow backwards in time. The output is then a timeseries of physical and model quantities that describe the state history of the parcel which gave rise to the extreme event. 
 
-By quantifying the transport characteristics that give rise to extreme events, studies have focus on providing 
+y quantifying the transport characteristics that give rise to extreme events, studies have focus on providing 
 
 ## Temperature anomaly decomposition
 
