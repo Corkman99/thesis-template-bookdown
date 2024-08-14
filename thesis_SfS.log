@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  5 AUG 2024 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  14 AUG 2024 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -573,24 +573,7 @@ File: lstlang2.sty 2024/05/25 1.10b listings language file
 File: lstlang3.sty 2024/05/25 1.10b listings language file
 )
 \c@definition=\count321
-
-(C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count322
-\FV@InFile=\read3
-\FV@TabBox=\box67
-\c@FancyVerbLine=\count323
-\FV@StepNumber=\count324
-\FV@OutFile=\write3
-) (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip87
-\fb@frw=\dimen186
-\fb@frh=\dimen187
-\FrameRule=\dimen188
-\FrameSep=\dimen189
-)
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 15
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 11
 1.
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
@@ -598,44 +581,43 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count325
-\l__pdf_internal_box=\box68
-) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Notation.aux) (tex/
-Appendix1.aux))
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box67
+) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux))
 \openout1 = `thesis_SfS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen190
-\scratchbox=\box69
-\nofMPsegments=\count327
-\nofMParguments=\count328
+\scratchcounter=\count323
+\scratchdimen=\dimen186
+\scratchbox=\box68
+\nofMPsegments=\count324
+\nofMParguments=\count325
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen191
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen187
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks40
 )
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
@@ -648,10 +630,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 151.
+Package hyperref Info: Link coloring ON on input line 111.
 (thesis_SfS.out) (thesis_SfS.out)
-\@outlinefile=\write4
-\openout4 = `thesis_SfS.out'.
+\@outlinefile=\write3
+\openout3 = `thesis_SfS.out'.
 
 Couldn't patch \deferred@thm@head!
 
@@ -668,20 +650,20 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count332
+\c@lstlisting=\count329
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <10.95> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 172.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 132.
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 172
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 172
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132
 .
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -702,30 +684,26 @@ Overfull \vbox (7.17722pt too high) has occurred while \output is active []
 [2
 
 ]
-
-[3]
 \openout2 = `tex/Preface.aux'.
 
-(tex/Preface.tex
+(tex/Preface.tex)
 
-[4
+[3
 
 
-])
-
-[5]
+]
 \openout2 = `tex/Abstract.aux'.
 
 (tex/Abstract.tex
 
-[6
+[4
 
 
 
 
 ])
 
-[7] (thesis_SfS.toc
+[5] (thesis_SfS.toc
 
 Package xcolor Warning: Incompatible color definition on input line 2.
 
@@ -793,7 +771,13 @@ Package xcolor Warning: Incompatible color definition on input line 22.
 Package xcolor Warning: Incompatible color definition on input line 23.
 
 
+Package xcolor Warning: Incompatible color definition on input line 24.
+
+
 Package xcolor Warning: Incompatible color definition on input line 25.
+
+
+Package xcolor Warning: Incompatible color definition on input line 26.
 
 
 Package xcolor Warning: Incompatible color definition on input line 27.
@@ -801,146 +785,154 @@ Package xcolor Warning: Incompatible color definition on input line 27.
 
 Package xcolor Warning: Incompatible color definition on input line 28.
 
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 33.
+
+
+Package xcolor Warning: Incompatible color definition on input line 35.
+
+
+Package xcolor Warning: Incompatible color definition on input line 36.
+
 )
-\tf@toc=\write5
-\openout5 = `thesis_SfS.toc'.
+\tf@toc=\write4
+\openout4 = `thesis_SfS.toc'.
 
 
 
-[8
+[6
 
 
-] (thesis_SfS.lof)
-\tf@lof=\write6
-\openout6 = `thesis_SfS.lof'.
+] (thesis_SfS.lof
 
+Package xcolor Warning: Incompatible color definition on input line 4.
 
-
-[9] (thesis_SfS.lot)
-\tf@lot=\write7
-\openout7 = `thesis_SfS.lot'.
-
-
-
-[10]
-\openout2 = `tex/Notation.aux'.
-
-(tex/Notation.tex)
-
-[11
-
-
-
-]
-
-[12
-
-
-
-]
-
-Package xcolor Warning: Incompatible color definition on input line 228.
-
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 2
-38.
-LaTeX Font Info:    No file TS1aer.fd. on input line 238.
-
-LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 238.
-
-LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
-52.
-(C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-
-Package xcolor Warning: Incompatible color definition on input line 275.
-
-
-Package xcolor Warning: Incompatible color definition on input line 291.
+\tf@lof=\write5
+\openout5 = `thesis_SfS.lof'.
 
 
+
+[7] (thesis_SfS.lot)
+\tf@lot=\write6
+\openout6 = `thesis_SfS.lot'.
+
+
+
+[8]
 
 [1
 
 ]
-Underfull \vbox (badness 2951) has occurred while \output is active []
+
+[2
+
+]
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 2
+08.
+LaTeX Font Info:    No file TS1aer.fd. on input line 208.
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textdegree' on input line 208.
 
 
-
-[2]
-
-Package xcolor Warning: Incompatible color definition on input line 394.
-
-
-Package xcolor Warning: Incompatible color definition on input line 405.
-
-
-Package xcolor Warning: Incompatible color definition on input line 410.
-
-
-Package xcolor Warning: Incompatible color definition on input line 412.
-
-
-Package xcolor Warning: Incompatible color definition on input line 421.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [3]
 
-[4
-
-]
-Chapter 1.
-
-
-[5]
-
-[6
-
-]
+[4]
 Chapter 2.
 
+Package xcolor Warning: Incompatible color definition on input line 218.
 
-[7]
+
+Package xcolor Warning: Incompatible color definition on input line 226.
+
+
+Package xcolor Warning: Incompatible color definition on input line 226.
+
+
+Package xcolor Warning: Incompatible color definition on input line 226.
+
+
+Package xcolor Warning: Incompatible color definition on input line 226.
+
+
+
+[5
+
+]
+
+[6]
+
+Package xcolor Warning: Incompatible color definition on input line 240.
+
+
+Package xcolor Warning: Incompatible color definition on input line 240.
+
+<images/dominant.png, id=258, 694.5147pt x 361.35pt>
+File: images/dominant.png Graphic file (type png)
+<use images/dominant.png>
+Package pdftex.def Info: images/dominant.png  used on input line 243.
+(pdftex.def)             Requested size: 426.79134pt x 222.05525pt.
+
+
+[7 <./images/dominant.png>]
 
 [8]
 
+Package xcolor Warning: Incompatible color definition on input line 284.
+
+
+Package xcolor Warning: Incompatible color definition on input line 284.
+
+
+
 [9]
 
-[10]
+[10
+
+]
+Chapter 3.
+
 
 [11]
 
 [12
 
 ]
-Chapter 3.
+Chapter 4.
 
-Overfull \hbox (39.71672pt too wide) detected at line 519
-[]
- []
-
-
-Package natbib Warning: Citation `eq-var_decomp' on page 13 undefined on input 
-line 521.
+Package xcolor Warning: Incompatible color definition on input line 313.
 
 
 
 [13]
 
-Package xcolor Warning: Incompatible color definition on input line 542.
-
-
-
 [14]
-Chapter 4.
 
+Package xcolor Warning: Incompatible color definition on input line 346.
 
-[15
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 3
+46.
+(C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
 
-]
+[15]
 
 [16
 
@@ -950,13 +942,13 @@ Chapter 5.
 
 [17]
 
-[18
-
-]
+[18]
 Chapter 6.
 
 
-[19]
+[19
+
+]
 
 [20
 
@@ -968,20 +960,36 @@ Chapter 7.
 
 [22
 
-] (thesis_SfS.bbl
+]
+Chapter 8.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+[23]
+
+[24
+
+] (thesis_SfS.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\T1/aer/m/n/10.95 Lupo, A. R. (2021).  At-mo-spheric block-ing events: a re-v
+iew.  \T1/aer/m/it/10.95 An-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\T1/aer/m/it/10.95 nals of the New York Academy of Sci-ences 1504\T1/aer/m/n/10
+.95 (1), 5--24.  _eprint:
+ []
 
 )
 
-[23
+[25
 
 ]
 \openout2 = `tex/Appendix1.aux'.
 
 (tex/Appendix1.tex
 
-[24
+[26
 
 
 ]
@@ -1009,60 +1017,56 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 )
 
-[25]
+[27]
 
-[26
+[28
 
 
 
 ]
-<pdf/confirmation-originality.pdf, id=327, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=362, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
-Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 6
-18.
+Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
+32.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
-Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 6
-18.
+Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
+32.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=330, page=1, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=365, page=1, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 618.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 618.
+ line 432.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 618.
+ line 432.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 618.
+ line 432.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 432.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 618.
+ line 432.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[27
+[29
 
- <./pdf/confirmation-originality.pdf>]
-
-Package natbib Warning: There were undefined citations.
-
-(thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Notation.aux) (tex/Ap
-pendix1.aux))
+ <./pdf/confirmation-originality.pdf>] (thesis_SfS.aux (tex/Preface.aux) (tex/A
+bstract.aux) (tex/Appendix1.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1071,16 +1075,16 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
-(rerunfilecheck)             Checksum: 4F7CBA30F39539D2461F1524A8E43E46;4494.
+(rerunfilecheck)             Checksum: 2AC68546F39B6D5504AD84E487EFE7A1;5972.
  ) 
 Here is how much of TeX's memory you used:
- 16407 strings out of 473904
- 256167 string characters out of 5725656
+ 15934 strings out of 473904
+ 248353 string characters out of 5725656
  1955908 words of memory out of 5000000
- 38826 multiletter control sequences out of 15000+600000
- 603498 words of font info for 125 fonts, out of 8000000 for 9000
+ 38360 multiletter control sequences out of 15000+600000
+ 604150 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,19n,107p,1621b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,19n,107p,1635b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Corkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1095.pk><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmb10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -1103,9 +1107,9 @@ cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on thesis_SfS.pdf (39 pages, 321429 bytes).
+Output written on thesis_SfS.pdf (37 pages, 584753 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

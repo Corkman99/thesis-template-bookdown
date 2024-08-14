@@ -1,0 +1,57 @@
+# Methods
+
+## Decomposition of TX1day anomalies and their yearly variance
+
+BETTER INTRO HERE: WHAT DO WE WANT TO DO? GIVE SOME SORT OF IMPORTANCE ORDERING BASED ON VARIANCE. MAYBE INTRODUCE WITH TYPICAL VARIANCE DECOMPOSITION SUCH AS IN GROMPING, and CONSIDER THIS INSTEAD OF R2 or so.
+
+The aim of this thesis is to gain further understanding in the influence of the three $T'$-generating mechanisms on TX1day events, particularly relating to the variability in yearly maxima observations. Then, to extend the first-moment characterization of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of $T'$ that quantifies the contributions of physical processes on variability. For $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i = \text{adv}_i +\text{adiab}_i +\text{diab}_i$, we have that:
+
+\begin{equation}
+   V(\{ T' \}_{1:n}) = \sum_{c \in \{\text{adv},\text{adiab},\text{diab}\}} V(\{ c \}_{1:n} ) + \sum_{c, d \in \{\text{adv},\text{adiab},\text{diab}\} , c\neq d} \text{Cov}(\{ c \}_{1:n} ,\{ d \}_{1:n})
+(\#eq:vardecomp)
+\end{equation}
+
+Applying \@ref(eq:vardecomp) to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for an intuitive comparison of second-moment contributions. I argue that considering the variance of the contributors without adjusting for the influence of other contributors due to existing correlation is more informative. For example, a large variation in adiabatic $T'$ contribution is important to report, regardless of the additional influence of advective and diabatic processes; if the sum of adiabatic and advective $T'$ has small variance, it will be reflected in a large negative covariance between the contributors. 
+
+This method is then preferred over other variance-based feature importance approaches because it does not rely on regression which suffers from constraints described in [Statistical considerations]. In addition, the sample sizes are small (40-41) and 
+
+## Other feature importance mehods
+
+I additionally apply variance-based and permutation methods to offer a more complete analysis. There is a rich literature in applied statistics with the goal of quantifying predictor importance in regression with observational data and the decision to use the aforementioned variance decomposition is motivate by the non-trivial data structure. The numerical errors in **label** are small and have diverse distributions, that are thus assumed to be zero. This then yields linearly dependent predictors - in addition to strong negative correlations between components due to inherent physical constraints - which limits the applicability of standard regression methods and the associated measures of predictor importance that assume are uncorrelated (for example, ...). Addressing the sum-to-constant constraint of the data structure, for example by transforming the covariates to a simplex space (Greenacre, 2021), is also problematic as the data does not follow the positivity constraint: contributions to the response may be negative. Pre-processing the data to enforce such a constraint leads to poor representation of the domain and hinders interpretation. 
+
+In the above methodologies, the presence of highly correlated predictors implies that information loss from different ordering or permutation of a predictor is minimal. We then expect the these to perform badly. Thus, locations exhibiting at least one inter-contributor correlations below -0.75 or above 0.75 over the 40 samples will be excluded. 
+
+Also talk about small sample size for a single location, while spatialpooling is not supported since we carried out at is resolution to have a good resolution.
+
+I think we get zero conditional second moment for Y
+
+ maybe try to apply LMG / PVMD anyways and see what happens. I think it still does bad with these very negatively correlated components, but worth to include nonetheless. And with pure variance, we know very well what anticorrelation does. 
+
+## Principle Component Analysis
+
+To characterize more precisely the strong inter-contributor correlations, I employ a standard dimension reduction methodology. Principle Component Analysis (PCA), known as Empirical Orthogonal Functions in climate sciences, is a linear transformation introduced by Pearson (1901) and first applied in climate sciences for weather prediction by Lorenz (1956). Given multivariate samples of dimension $p$, it expresses data into $p$ orthogonal linear combinations of the original coordinates, determined iteratively to maximize variance. It is commonly used as a dimension reduction method by truncating to coordinates with high explained variance and in machine learning to yield data with uncorrelated features.
+
+Similar to the variance decomposition, the transform is applied independently to series of yearly maxima TX1day events at every location on Earth with the aim of providing insights in spatial variability. PCA is preferred over machine-learning approaches such as .. due to our small sample size at each location. 
+
+## Baselines for trajectory data
+
+As was earlier discussed, trajectory-based analyses are often carried out case-by-case and thus difficult to systematically apply for a global study. We propose leveraging the flexibility of machine learning models to investigate trajectories of yearly maxima TX1day decompositions. To compare the predictive performance of the state-of-the-art model introduced in the next section, X standard baseline models are employed: constant final-value, a Long Short-Term Memory (LSTM) network and a Gated Recurrent Unit (GRU) network. 
+
+LSTMs and GRUs are types of Recurrent Neural Networks (RNN) using feedback loops to allow outputs of one cell to be the inputs of a subsequent cell. LSTMs were introduced by Hochreiter and Schmidhuber (1997) to solve vanishing gradients in applications with long-term dependencies. Each LSTM layer is composed of three gates - the input, forget and output gates - that are recurrently computed one timestep at a time to update temporal relationships, expressed in current and hidden states. This complex structure implies considerable model flexibility, but is prone to over-fitting. GRUs are introduced by ... to reduce the number of model parameters by utilizing only two gates per recurrence. Figure X illustrates the architecture and the relevant equations. 
+
+These models are applied to timeseries obtained by averaging back-trajectories integrated from genesis $t_g$ to times $t_{g+1}$,  $t_{g+2}$, ...,  $t_{0}$, where the final time is the last timestep before the day of the hot extreme. RNN architectures learn temporal patterns by ... and we therefore augment the data by applying a sliding window to each timeseries. 
+
+Talk about cross-validation technique or parameter selection. 
+
+Talk about used loss function
+
+Talk about validation: we want it to be good at predicting 4 steps forward, but especially the final timesteps. Maybe a weighted loss? Could use this: 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7038523/
+
+Talk about dimension reduction, since the LSTM and Shapelet-based classifications are effectively dimension reduction techniques. LSTM uses a sort of encoder to describe long and short term dependencies, while the shapelet gives you a basis transform. 
+
+## Shapelet-based neural networks
+
+## Extra
+
+Indeed, even when artificially adding Gaussian noise to the samples, regression coefficients will be 1 for all components (another motivation for why we want to address second moment contribution! since we have ground truth).

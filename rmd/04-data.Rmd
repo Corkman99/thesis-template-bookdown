@@ -1,7 +1,0 @@
-# Data
-
-## ERA5
-
-We apply the aforementioned methodologies to ERA5 data with $0.5^{\circ} \times 0.5^{\circ}$ horizontal resolution, 137 vertical coordinates expressed as model-levels and 3-hour temporal resolution from 1980 to 2020. The coarser resolution from the full ERA5 product is required as variables such as ... are reported only in the chosen resolution. In addition, the computational costs of running multiple LAGRANTO back-trajectories per grid cell per year are limiting.  
-
-## Preprocessing for timeseries analysis

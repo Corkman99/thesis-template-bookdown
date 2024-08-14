@@ -1,0 +1,18 @@
+## EXTRA (not necessary to include probably)
+
+(probably too detailed, same references) 
+In tropical Southern America, large anti-cyclonic systems (South Atlantic Subtropical High System) have been related to positive sea surface temperature anomalies of the South Atlantic and the weakening of the Intertropical Convergence Zone (ITCZ) and the South Atlantic Convergence Zone (SACZ) systems.
+
+(maybe we can also mention these, but the major stuff was covered)
+Numerous studies have linked changes in hot extreme intensity to large-scale patterns such as the El Nino Southern Oscillation and the Arctic Oscillation (Gao et al., 2017; ). Then A. Casanueva et al. (2014) propose investigating the variability of extreme precipitation events through large-scale teleconnection patterns, such as the Southern Oscillation and the North Atlantic Oscillation, by trend analysis and correlation analysis. 
+
+designs for causal effect estimation (regression, factorial designs, 'regional SA' which seems to be just comparison of distributions at different quantiles, correlation or variance-based metrics, entropy-based metrics). 
+
+Other equation formatting:
+
+\begin{equation}
+ \begin{split}
+   T'(\mathbf{x},t_X) = & - \int_{t_g}^{t_X} \frac{\partial \bar{T}}{\partial t} \, \text{d}\tau - \int_{t_g}^{t_X} \mathbf{\nu} \mathbf{\nabla}_h \bar{T} \, \text{d}\tau + \int_{t_g}^{t_X} \left[ \frac{\kappa T}{p} - \frac{\partial \bar{T}}{\partial p}\right] \omega \, \text{d}\tau + \int_{t_g}^{t_X} \left( \frac{p}{p_0} \right)^\kappa \frac{\text{D}\theta}{\text{D}t} \, \text{d}\tau   \\
+   & = \qquad \text{seas} \qquad \, + \, \quad \quad \text{adv} \qquad \, \, + \qquad \qquad \text{adiab} \qquad \quad \,  + \qquad \quad \text{diab} 
+\end{split}
+\end{equation}

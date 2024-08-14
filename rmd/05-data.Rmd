@@ -1,0 +1,13 @@
+# Data
+
+## ERA5
+
+We apply the aforementioned methodologies to the latest ERA5 data with $0.5^{\circ} \times 0.5^{\circ}$ horizontal resolution, 137 vertical coordinates expressed as model-levels and 3-hourly temporal resolution from 1980 to 2020. ERA5 data is model output that has been assimilated with observation and therefore represents the most complete global product of gridded meteorological data. It is also available in higher horizontal and temporal resolutions, but computational costs of running LAGRANTO to compute multiple back-trajectories per grid cell per yearly event are limiting. Near-surface temperature is reported by 2m temperature and $T'$ is calculated using transient climatology of 9-year centered windows of 21-day periods, at every model-level. Further description of ERA5 products may be found in Hersbach et al. (2020). 
+
+We consider this data in two ways: the first section of this thesis will analyse the final decomposition of each TX1day event, while the second will analyse the timeseries that evolves when considering at each backward trajectory timestep the cumulative decomposition from genesis. 
+
+## Statistical considerations
+
+We then have an observational dataset containing - at every [latitude, longitude, year] index - the achieved temperature anomaly magnitude and the three components corresponding to contributions from advective, adiabatic and diabatic processes, with each quantity representing the average over 24 back-trajectories. We assume that at a location [latitude, longitude], yearly data are independent samples from some multivariate distribution \[ (T',\text{adv},\text{adiab},\text{diab}) \sim F \]. Initial exploration of the final decomposition shows a wide variety of distributional behaviors, both for $T'$ and the components. Figure X shows locations with right-, left-skewed and bi-modal sample histograms as well as the non-linear and highly negatively correlated relationships between components and with $T'$. This further motivates the need for an approach with lax distributional assumptions and flexible model classes. 
+
+The timeseries dataset is first differenced such that each timestep contains information only about change in the previous timestep, and not a cumulative quantity. It similarly displays diverse temporal structures.  Auto-correlation at small timescales are most prevalent and cross-correlation between components is strong, although both show large variations temporally and spatially. In many samples, the components appear to couple and decouple, illustrated for a representative example in Figure X. 

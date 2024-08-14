@@ -1,0 +1,9 @@
+# Statistical Background
+
+## Predictor importance
+
+There is a rich literature in applied statistics with the goal of quantifying predictor importance in regression with observational data and the decision to use the aforementioned variance decomposition is motivate by the non-trivial data structure. The numerical errors in **label** are small and have diverse distributions, that are thus assumed to be zero. This then yields linearly dependent predictors - in addition to strong negative correlations between components due to inherent physical constraints - which limits the applicability of standard regression methods and the associated measures of predictor importance that assume are uncorrelated (for example, ...). Addressing the sum-to-constant constraint of the data structure, for example by transforming the covariates to a simplex space (Greenacre, 2021), is also problematic as the data does not follow the positivity constraint: contributions to the response may be negative. Pre-processing the data to enforce such a constraint leads to poor representation of the domain and hinders interpretation. 
+
+Lindeman, Merenda, and Gold (1980) - referred as LMG - proposes to quantify predictor importance in a linear regression model by computing the average sequential sums-of-squares over all predictor orderings. Feldman (2005) extended this approach with Proportional Marginal Variance Decomposition (PMVD) that instead considers a weighted average with weights chosen to enforce the exclusion criteria - a predictor with zero coefficient is allocated zero importance (Gromping, 2007). Breiman (2001) instead proposes to measure importance of a predictor by assessing the model's loss of accuracy due to random permutations of the predictor.
+
+## Clustering / Timeseries Analysis in Climate
