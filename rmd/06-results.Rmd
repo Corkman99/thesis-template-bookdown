@@ -2,6 +2,26 @@
 
 ## Relating TX1day T' variability to component variability
 
+**FIRST COMMENT** The variances of TX1day events vary greatly over space, with a pattern resembling those seen in the mean of TX1day magnitudes. There is a strong ocean-land contrast, with low variances in the order of 2 over oceans and mostly above 4 over land. Over land, there is a general increase in variability as you move further from the Equator. There exists nonetheless important exceptions: the West coasts of North America, West coasts of Southern Chile, South-western coasts of Australia and the West coasts between Mauritania and Northern Europe all exhibit large TX1day variability, while tropical land such as the Amazonia, South-east Asia and Indonesia, equatorial Africa and parts of the Eastern Saharan show low variability comparable to the oceans. The largest peaks of variability occur in the bay of the Antarctic Peninsula and an oceanic hot spot centered at 70&deg; S  160&deg; W, with relatively large hotspots in the coastal regions described above. 
+
+Explanation of above: larger heat capacity over oceans. While we may have believed in smaller mechanisms available over oceans, the decomposition exhibits diverse patterns in variability of the contributors over oceans. ... 
+The exceptions may hint at the origins and pathways of TX1day events. The coastal hotspots are believed to be related to parcel trajectories that evolve over land and quickly die when arriving over a colder ocean surface. The tropical land hotspots may be related to trajectories over the oceans driven by trade winds, or may have to do with vegetation cover (very humid forests dominated by diabatic processes). 
+Check what Matthias explains for the means, maybe some similar comments. 
+
+**SECOND COMMENT** Individual contributors have generally larger variance and also vary spatially. The advective and adiabatic $T'$ variance have similar spatial distribution over land, while they seem to complement eachother over oceans with large adiabatic $T'$ variance in the extra-tropics and large adiabatic $T'$ variance in the sub-tropics. Key hotspots of very large variance for both contributors include regions of high topography (particularly over Rockies, the Andes and the Himalayas) as well as the Arctic and Antarctic ice sheets. 
+
+The diabatic $T'$ variance is more uniform with otherwise low values only around the oceanic equator, in the Indian ocean and in the Pacific off to coast of the Philipines and Indonesia. 
+
+Comment 2: Variances of each term are also not uniform. The variance of the advective and adiabatic components exhibit large regional differences while the variance of the diabatic term is more uniform, with particularly small values near the equator.
+
+No term dominates globally, giving rise to many regional to local patterns. 
+ 
+Comment 3: Covariances are predominantly negative. Areas of positive covariance include areas over oceans between 30 and 60 N/S for Adv/Adiab and Northern oceans; off the Saharan west coast and over the Antarctic ice sheet and parts of Greenland for Adv/Diab; in some areas over Africa and the Middle East for Diab/Adiab. DAMPENING MECHANISM see A Global Quantification of the Physical Processes Leading to Near-Surface Cold Extremes
+
+```{r vardecomp, fig.cap="Variance of TX1day series decomposed into the six variance components. Grid points with anomalously high variances or covariances magnitudes, below-128 and above 128 corresponding to less than 0.6% of all observations, are omitted colored grey.", echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/vardecomp.png")
+```
+
 ## Comparing contributions to TX1day T' mean and variance
 
 ## Inter-component variability structure

@@ -4,7 +4,11 @@
 
 BETTER INTRO HERE: WHAT DO WE WANT TO DO? GIVE SOME SORT OF IMPORTANCE ORDERING BASED ON VARIANCE. MAYBE INTRODUCE WITH TYPICAL VARIANCE DECOMPOSITION SUCH AS IN GROMPING, and CONSIDER THIS INSTEAD OF R2 or so.
 
-The aim of this thesis is to gain further understanding in the influence of the three $T'$-generating mechanisms on TX1day events, particularly relating to the variability in yearly maxima observations. Then, to extend the first-moment characterization of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of $T'$ that quantifies the contributions of physical processes on variability. For $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i = \text{adv}_i +\text{adiab}_i +\text{diab}_i$, we have that:
+The aim of this thesis is to gain further understanding in the influence of the three $T'$-generating mechanisms on TX1day events, particularly relating to the variability in yearly maxima observations. Then, to extend the first-moment characterization of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of $T'$ that quantifies the contributions of physical processes on variability. 
+
+Recalling \@ref(eq:tdecomp), the evaluation of the integrals involves two errors arising from discrete approximations of the continuous time domain: error 1 denotes the deviation from zero of $T'(\cdot ,t_g)$; error 2 denotes the remainder of the components, seasonality and error 1 subtracted from $T'$. These errors are usually small relative to hot extreme $T'$ magnitudes and are thus dropped in the proposed decomposition. In addition, since TX1day events evolve on sub-seasonal timescales, the seasonality term (seas) is small and is also dropped (see Extended Data in Rothlisberger and Papritz (2023)). 
+
+Then, for $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i = \text{adv}_i +\text{adiab}_i +\text{diab}_i$, we have that:
 
 \begin{equation}
    V(\{ T' \}_{1:n}) = \sum_{c \in \{\text{adv},\text{adiab},\text{diab}\}} V(\{ c \}_{1:n} ) + \sum_{c, d \in \{\text{adv},\text{adiab},\text{diab}\} , c\neq d} \text{Cov}(\{ c \}_{1:n} ,\{ d \}_{1:n})
@@ -13,7 +17,7 @@ The aim of this thesis is to gain further understanding in the influence of the 
 
 Applying \@ref(eq:vardecomp) to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for an intuitive comparison of second-moment contributions. I argue that considering the variance of the contributors without adjusting for the influence of other contributors due to existing correlation is more informative. For example, a large variation in adiabatic $T'$ contribution is important to report, regardless of the additional influence of advective and diabatic processes; if the sum of adiabatic and advective $T'$ has small variance, it will be reflected in a large negative covariance between the contributors. 
 
-This method is then preferred over other variance-based feature importance approaches because it does not rely on regression which suffers from constraints described in [Statistical considerations]. In addition, the sample sizes are small (40-41) and 
+This method is then preferred over other variance-based feature importance approaches because it does not rely on regression which suffers from constraints described in [Statistical considerations] and due to relatively small sample sizes (40-41) at each location. Furthermore, we do not propose more robust scale measures, such as truncated variance and ect, in order to preserve information about tail events that are often associated with the largest human impact.
 
 ## Other feature importance mehods
 
@@ -31,7 +35,7 @@ I think we get zero conditional second moment for Y
 
 To characterize more precisely the strong inter-contributor correlations, I employ a standard dimension reduction methodology. Principle Component Analysis (PCA), known as Empirical Orthogonal Functions in climate sciences, is a linear transformation introduced by Pearson (1901) and first applied in climate sciences for weather prediction by Lorenz (1956). Given multivariate samples of dimension $p$, it expresses data into $p$ orthogonal linear combinations of the original coordinates, determined iteratively to maximize variance. It is commonly used as a dimension reduction method by truncating to coordinates with high explained variance and in machine learning to yield data with uncorrelated features.
 
-Similar to the variance decomposition, the transform is applied independently to series of yearly maxima TX1day events at every location on Earth with the aim of providing insights in spatial variability. PCA is preferred over machine-learning approaches such as .. due to our small sample size at each location. 
+Similar to the variance decomposition, the transform is applied independently to series of yearly maxima TX1day events at every location on Earth with the aim of providing insights in spatial variability of contributor dependence structures. PCA is preferred over machine-learning approaches since it is variance-based, has a intuitive interpretation and low computational complexity for small sample sizes. Non-linear alternatives based on neural network auto-encoders such as 
 
 ## Baselines for trajectory data
 

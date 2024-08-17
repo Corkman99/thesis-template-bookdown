@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  14 AUG 2024 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  17 AUG 2024 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,6 +816,9 @@ Package xcolor Warning: Incompatible color definition on input line 36.
 
 Package xcolor Warning: Incompatible color definition on input line 4.
 
+
+Package xcolor Warning: Incompatible color definition on input line 9.
+
 )
 \tf@lof=\write5
 \openout5 = `thesis_SfS.lof'.
@@ -856,19 +859,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4]
 Chapter 2.
 
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 226.
+Package xcolor Warning: Incompatible color definition on input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 226.
+Package xcolor Warning: Incompatible color definition on input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 226.
-
-
-Package xcolor Warning: Incompatible color definition on input line 226.
+Package xcolor Warning: Incompatible color definition on input line 224.
 
 
 
@@ -876,17 +876,18 @@ Package xcolor Warning: Incompatible color definition on input line 226.
 
 ]
 
+Package xcolor Warning: Incompatible color definition on input line 234.
+
+
+Package xcolor Warning: Incompatible color definition on input line 234.
+
+
+
 [6]
-
-Package xcolor Warning: Incompatible color definition on input line 240.
-
-
-Package xcolor Warning: Incompatible color definition on input line 240.
-
-<images/dominant.png, id=258, 694.5147pt x 361.35pt>
+<images/dominant.png, id=259, 694.5147pt x 361.35pt>
 File: images/dominant.png Graphic file (type png)
 <use images/dominant.png>
-Package pdftex.def Info: images/dominant.png  used on input line 243.
+Package pdftex.def Info: images/dominant.png  used on input line 237.
 (pdftex.def)             Requested size: 426.79134pt x 222.05525pt.
 
 
@@ -894,10 +895,10 @@ Package pdftex.def Info: images/dominant.png  used on input line 243.
 
 [8]
 
-Package xcolor Warning: Incompatible color definition on input line 284.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
-Package xcolor Warning: Incompatible color definition on input line 284.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
 
@@ -916,18 +917,25 @@ Chapter 3.
 ]
 Chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 313.
+Package xcolor Warning: Incompatible color definition on input line 298.
+
+
+Package xcolor Warning: Incompatible color definition on input line 307.
 
 
 
 [13]
 
+Package xcolor Warning: Incompatible color definition on input line 309.
+
+
+
 [14]
 
-Package xcolor Warning: Incompatible color definition on input line 346.
+Package xcolor Warning: Incompatible color definition on input line 342.
 
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 3
-46.
+42.
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
@@ -949,14 +957,20 @@ Chapter 6.
 [19
 
 ]
+<images/vardecomp.png, id=327, 1019.7297pt x 787.0203pt>
+File: images/vardecomp.png Graphic file (type png)
+<use images/vardecomp.png>
+Package pdftex.def Info: images/vardecomp.png  used on input line 387.
+(pdftex.def)             Requested size: 426.79134pt x 329.39342pt.
 
-[20
 
-]
+[20 <./images/vardecomp.png>]
 Chapter 7.
 
 
-[21]
+[21
+
+]
 
 [22
 
@@ -1024,44 +1038,44 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<pdf/confirmation-originality.pdf, id=362, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=368, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
-32.
+50.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
-32.
+50.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=365, page=1, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=371, page=1, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 432.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 432.
+ line 450.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 432.
+ line 450.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 432.
+ line 450.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 450.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 432.
+ line 450.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [29
 
@@ -1078,10 +1092,10 @@ Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
 (rerunfilecheck)             Checksum: 2AC68546F39B6D5504AD84E487EFE7A1;5972.
  ) 
 Here is how much of TeX's memory you used:
- 15934 strings out of 473904
- 248353 string characters out of 5725656
+ 15947 strings out of 473904
+ 248662 string characters out of 5725656
  1955908 words of memory out of 5000000
- 38360 multiletter control sequences out of 15000+600000
+ 38372 multiletter control sequences out of 15000+600000
  604150 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,19n,107p,1635b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1107,9 +1121,9 @@ cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on thesis_SfS.pdf (37 pages, 584753 bytes).
+Output written on thesis_SfS.pdf (37 pages, 1097125 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 498 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
