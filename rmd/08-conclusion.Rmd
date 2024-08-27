@@ -1,9 +1,6 @@
 # Conclusion
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-in culpa qui officia deserunt mollit anim id est laborum
+I expect that a successful timeseries model would be able to accomodate: a variety of different classes of multivariate behaviours which can be interpreted as general heat-generating flows; assess the influence of early-development characteristics of parcels in addition to the more important recent history; forecast all contributors 12-36 hours (4-12 timesteps) hours ahead; be able to assign importance to specific timesteps or subsequences, or output a causal graph structure for each class. 
+
+Does variability in the final TX1day magnitude originate from early development or from recent history? 
 

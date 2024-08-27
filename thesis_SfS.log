@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  17 AUG 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  23 AUG 2024 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,13 +795,16 @@ Package xcolor Warning: Incompatible color definition on input line 30.
 Package xcolor Warning: Incompatible color definition on input line 31.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package xcolor Warning: Incompatible color definition on input line 32.
 
 
-Package xcolor Warning: Incompatible color definition on input line 35.
+Package xcolor Warning: Incompatible color definition on input line 34.
 
 
 Package xcolor Warning: Incompatible color definition on input line 36.
+
+
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 )
 \tf@toc=\write4
@@ -818,6 +821,9 @@ Package xcolor Warning: Incompatible color definition on input line 4.
 
 
 Package xcolor Warning: Incompatible color definition on input line 9.
+
+
+Package xcolor Warning: Incompatible color definition on input line 10.
 
 )
 \tf@lof=\write5
@@ -884,21 +890,49 @@ Package xcolor Warning: Incompatible color definition on input line 234.
 
 
 [6]
-<images/dominant.png, id=259, 694.5147pt x 361.35pt>
-File: images/dominant.png Graphic file (type png)
-<use images/dominant.png>
-Package pdftex.def Info: images/dominant.png  used on input line 237.
+<images/dominant_mean.png, id=266, 694.5147pt x 361.35pt>
+File: images/dominant_mean.png Graphic file (type png)
+<use images/dominant_mean.png>
+Package pdftex.def Info: images/dominant_mean.png  used on input line 237.
 (pdftex.def)             Requested size: 426.79134pt x 222.05525pt.
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
+40.
+(C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Overfull \hbox (3.6186pt too wide) in paragraph at lines 240--241
+[]\T1/aer/m/n/10.95 % \T1/aett/m/n/10.95 {r means, fig.cap="Reproduced from Rot
+h-lis-berger and Pa-pritz (2023). Maps
+ []
 
 
-[7 <./images/dominant.png>]
+Overfull \hbox (3.54199pt too wide) in paragraph at lines 240--241
+\T1/aett/m/n/10.95 at ev-ery lo-ca-tion the mean over yearly max-ima TX1day eve
+nts of (a) the tem-
+ []
+
+
+Overfull \hbox (3.54199pt too wide) in paragraph at lines 240--241
+\T1/aett/m/n/10.95 per-a-ture anomaly and the anomaly con-tri-bu-tion from (b) 
+ad-vec-tive, (c) adi-a-
+ []
+
+
+Overfull \hbox (284.6931pt too wide) in paragraph at lines 240--241
+\T1/aett/m/n/10.95 batic and (d) di-a-batic pro-cesses.", echo=FALSE, out.width
+="100%"} % knitr::include_graphics("images/mean_contributions.png")
+ []
+
+
+
+[7 <./images/dominant_mean.png>]
 
 [8]
 
-Package xcolor Warning: Incompatible color definition on input line 274.
+Package xcolor Warning: Incompatible color definition on input line 278.
 
 
-Package xcolor Warning: Incompatible color definition on input line 274.
+Package xcolor Warning: Incompatible color definition on input line 278.
 
 
 
@@ -917,70 +951,126 @@ Chapter 3.
 ]
 Chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 298.
+Package xcolor Warning: Incompatible color definition on input line 302.
 
 
-Package xcolor Warning: Incompatible color definition on input line 307.
+Package xcolor Warning: Incompatible color definition on input line 311.
 
 
 
 [13]
 
-Package xcolor Warning: Incompatible color definition on input line 309.
+Package xcolor Warning: Incompatible color definition on input line 313.
 
 
 
 [14]
 
-Package xcolor Warning: Incompatible color definition on input line 342.
+Package xcolor Warning: Incompatible color definition on input line 346.
 
-LaTeX Font Info:    Trying to load font information for T1+aett on input line 3
-42.
-(C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [15]
 
-[16
-
-]
+[16]
 Chapter 5.
 
 
-[17]
+[17
+
+]
 
 [18]
 Chapter 6.
+
+Package xcolor Warning: Incompatible color definition on input line 374.
+
 
 
 [19
 
 ]
-<images/vardecomp.png, id=327, 1019.7297pt x 787.0203pt>
+<images/vardecomp.png, id=335, 1019.7297pt x 787.0203pt>
 File: images/vardecomp.png Graphic file (type png)
 <use images/vardecomp.png>
-Package pdftex.def Info: images/vardecomp.png  used on input line 387.
+Package pdftex.def Info: images/vardecomp.png  used on input line 383.
 (pdftex.def)             Requested size: 426.79134pt x 329.39342pt.
 
 
 [20 <./images/vardecomp.png>]
+
+Package xcolor Warning: Incompatible color definition on input line 396.
+
+<images/dominant.png, id=342, 688.7331pt x 586.1097pt>
+File: images/dominant.png Graphic file (type png)
+<use images/dominant.png>
+Package pdftex.def Info: images/dominant.png  used on input line 399.
+(pdftex.def)             Requested size: 426.79134pt x 363.19644pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[21]
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Overfull \hbox (12.6633pt too wide) in paragraph at lines 416--417
+[]\T1/aer/m/n/10.95 %\T1/aett/m/n/10.95 {r pca_explainedvar, fig.cap="Percentag
+e of vari-ance in the ad-vec-tive, adi-
+ []
+
+
+Overfull \hbox (32.23088pt too wide) in paragraph at lines 416--417
+\T1/aett/m/n/10.95 a-batic and di-a-batic tem-per-a-ture anomaly that is ex-pla
+ined by (a) the first prin-
+ []
+
+
+Overfull \hbox (3.54199pt too wide) in paragraph at lines 416--417
+\T1/aett/m/n/10.95 ci-ple com-po-nent, (b) %the sec-ond prin-ci-ple com-po-nent
+, (c) the third prin-ci-
+ []
+
+
+Overfull \hbox (15.01755pt too wide) in paragraph at lines 416--417
+\T1/aett/m/n/10.95 ple com-po-nent and (d) the first and sec-ond prin-ci-ple co
+m-po-nents", echo=FALSE,
+ []
+
+
+Overfull \hbox (3.54199pt too wide) in paragraph at lines 416--417
+\T1/aett/m/n/10.95 out.width="100%"} %knitr::include_graphics("images/pca_expla
+inedvar.png") % 
+ []
+
+
+
+[22]
+
+[23 <./images/dominant.png>]
+
+[24
+
+]
 Chapter 7.
 
 
-[21
+[25]
 
-]
-
-[22
+[26
 
 ]
 Chapter 8.
 
 
-[23]
+[27]
 
-[24
+[28
 
 ] (thesis_SfS.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
@@ -996,14 +1086,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
 )
 
-[25
+[29
 
 ]
 \openout2 = `tex/Appendix1.aux'.
 
 (tex/Appendix1.tex
 
-[26
+[30
 
 
 ]
@@ -1031,53 +1121,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 )
 
-[27]
+[31]
 
-[28
+[32
 
 
 
 ]
-<pdf/confirmation-originality.pdf, id=368, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=397, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
-50.
+82.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 4
-50.
+82.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=371, page=1, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=400, page=1, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 450.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 450.
+ line 482.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 450.
+ line 482.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 450.
+ line 482.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 482.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 450.
+ line 482.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[29
+[33
 
  <./pdf/confirmation-originality.pdf>] (thesis_SfS.aux (tex/Preface.aux) (tex/A
 bstract.aux) (tex/Appendix1.aux))
@@ -1089,13 +1179,13 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
-(rerunfilecheck)             Checksum: 2AC68546F39B6D5504AD84E487EFE7A1;5972.
+(rerunfilecheck)             Checksum: 1393F8FC501B74AAA2B18C9F487BD142;6057.
  ) 
 Here is how much of TeX's memory you used:
- 15947 strings out of 473904
- 248662 string characters out of 5725656
+ 15967 strings out of 473904
+ 249074 string characters out of 5725656
  1955908 words of memory out of 5000000
- 38372 multiletter control sequences out of 15000+600000
+ 38386 multiletter control sequences out of 15000+600000
  604150 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,19n,107p,1635b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1121,9 +1211,9 @@ cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on thesis_SfS.pdf (37 pages, 1097125 bytes).
+Output written on thesis_SfS.pdf (41 pages, 1686752 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,8 +2,6 @@
 
 ## Decomposition of TX1day anomalies and their yearly variance
 
-BETTER INTRO HERE: WHAT DO WE WANT TO DO? GIVE SOME SORT OF IMPORTANCE ORDERING BASED ON VARIANCE. MAYBE INTRODUCE WITH TYPICAL VARIANCE DECOMPOSITION SUCH AS IN GROMPING, and CONSIDER THIS INSTEAD OF R2 or so.
-
 The aim of this thesis is to gain further understanding in the influence of the three $T'$-generating mechanisms on TX1day events, particularly relating to the variability in yearly maxima observations. Then, to extend the first-moment characterization of TX1day events by M. Rothlisberger and L. Papritz (2023), we propose a variance decomposition of $T'$ that quantifies the contributions of physical processes on variability. 
 
 Recalling \@ref(eq:tdecomp), the evaluation of the integrals involves two errors arising from discrete approximations of the continuous time domain: error 1 denotes the deviation from zero of $T'(\cdot ,t_g)$; error 2 denotes the remainder of the components, seasonality and error 1 subtracted from $T'$. These errors are usually small relative to hot extreme $T'$ magnitudes and are thus dropped in the proposed decomposition. In addition, since TX1day events evolve on sub-seasonal timescales, the seasonality term (seas) is small and is also dropped (see Extended Data in Rothlisberger and Papritz (2023)). 
@@ -15,9 +13,13 @@ Then, for $n$ temperature anomaly samples $\{ T' \}_{1:n}$ assuming that ${T'}_i
 (\#eq:vardecomp)
 \end{equation}
 
-Applying \@ref(eq:vardecomp) to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for an intuitive comparison of second-moment contributions. I argue that considering the variance of the contributors without adjusting for the influence of other contributors due to existing correlation is more informative. For example, a large variation in adiabatic $T'$ contribution is important to report, regardless of the additional influence of advective and diabatic processes; if the sum of adiabatic and advective $T'$ has small variance, it will be reflected in a large negative covariance between the contributors. 
+Applying \@ref(eq:vardecomp) to every location on Earth yields a direct and systematic approach to the analysis of global patterns of hot extreme variability in the presence of complex dependencies between physical processes. The linearity of the covariance operator and the fact that it is un-normalized, in comparison to correlation for instance, allows for an intuitive comparison of second-moment contributions. I argue that considering the variance of the contributors without adjusting for the influence of other contributors due to existing correlation is more informative. For example, a large variation in adiabatic $T'$ contribution is important to report, regardless of the additional influence of advective and diabatic processes; if the sum of adiabatic and advective $T'$ has small variance, it will be reflected in a large negative covariance between the contributors. The limitation of using an un-normalized quantity is the fact that a large mean magnitude will in most cases imply a larger variance. Therefore, meaningful interpretation of second-moment estimates will also require consideration of first-moment estimates.
 
-This method is then preferred over other variance-based feature importance approaches because it does not rely on regression which suffers from constraints described in [Statistical considerations] and due to relatively small sample sizes (40-41) at each location. Furthermore, we do not propose more robust scale measures, such as truncated variance and ect, in order to preserve information about tail events that are often associated with the largest human impact.
+To summarize the spatial structure of TX1day $T'$ variance and its decomposition, variance terms will be ranked with respect to magnitude and the following definition of 'dominance' will be applied: .... . Assigning importance to the largest variance contributors ignores the ... SHOULD WE INSTEAD NORMALIZE FOR THE DOMINANCE GRAPH? 
+
+Given the rich literature in feature importance (see []), the decision to use \@ref(eq:vardecomp) is motivate by the non-trivial data structure. The numerical residuals in \@ref(eq:tdecomp) are small and have diverse distributions, that are thus assumed to be zero. This then yields linearly dependent predictors - in addition to strong negative correlations between components due to inherent physical constraints - which limits the applicability of standard regression methods and the associated measures of predictor importance that assume uncorrelated predictors (Hooker et al., 2021). Addressing the sum-to-constant constraint of the data structure, for example by transforming the covariates to a simplex space (Greenacre, 2021), is also problematic as the data does not follow the positivity constraint: contributions to the response may be negative. Pre-processing the data to enforce such a constraint leads to poor representation of the domain and hinders interpretation. Furthermore, relatively small sample sizes (40-41) at each location limits the ... 
+
+Furthermore, we do not propose more robust scale measures, such as truncated variance and ect, in order to preserve information about tail events that are often associated with the largest human impact. 
 
 ## Other feature importance mehods
 
@@ -37,24 +39,27 @@ To characterize more precisely the strong inter-contributor correlations, I empl
 
 Similar to the variance decomposition, the transform is applied independently to series of yearly maxima TX1day events at every location on Earth with the aim of providing insights in spatial variability of contributor dependence structures. PCA is preferred over machine-learning approaches since it is variance-based, has a intuitive interpretation and low computational complexity for small sample sizes. Non-linear alternatives based on neural network auto-encoders such as 
 
-## Baselines for trajectory data
+## Forecasting TX1day trajectories
 
 As was earlier discussed, trajectory-based analyses are often carried out case-by-case and thus difficult to systematically apply for a global study. We propose leveraging the flexibility of machine learning models to investigate trajectories of yearly maxima TX1day decompositions. To compare the predictive performance of the state-of-the-art model introduced in the next section, X standard baseline models are employed: constant final-value, a Long Short-Term Memory (LSTM) network and a Gated Recurrent Unit (GRU) network. 
 
-LSTMs and GRUs are types of Recurrent Neural Networks (RNN) using feedback loops to allow outputs of one cell to be the inputs of a subsequent cell. LSTMs were introduced by Hochreiter and Schmidhuber (1997) to solve vanishing gradients in applications with long-term dependencies. Each LSTM layer is composed of three gates - the input, forget and output gates - that are recurrently computed one timestep at a time to update temporal relationships, expressed in current and hidden states. This complex structure implies considerable model flexibility, but is prone to over-fitting. GRUs are introduced by ... to reduce the number of model parameters by utilizing only two gates per recurrence. Figure X illustrates the architecture and the relevant equations. 
+LSTMs and GRUs are types of Recurrent Neural Networks (RNN) that were introduced by Hochreiter and Schmidhuber (1997) to solve the problem of vanishing gradients in applications with long-term dependencies. 
+Each LSTM layer is composed of three gates - the input, forget and output gates - that are recurrently computed one timestep at a time to update hidden states storing temporal information. An LSTM node processes input ... in the following way:
 
-These models are applied to timeseries obtained by averaging back-trajectories integrated from genesis $t_g$ to times $t_{g+1}$,  $t_{g+2}$, ...,  $t_{0}$, where the final time is the last timestep before the day of the hot extreme. RNN architectures learn temporal patterns by ... and we therefore augment the data by applying a sliding window to each timeseries. 
+\begin{equation}
+   V(\{ T' \}_{1:n}) = \sum_{c \in \{\text{adv},\text{adiab},\text{diab}\}} V(\{ c \}_{1:n} ) + \sum_{c, d \in \{\text{adv},\text{adiab},\text{diab}\} , c\neq d} \text{Cov}(\{ c \}_{1:n} ,\{ d \}_{1:n})
+(\#eq:vardecomp)
+\end{equation}
 
-Talk about cross-validation technique or parameter selection. 
+This complex structure implies considerable model flexibility, but is prone to over-fitting. L2-regularization, which penalizes the magnitude of model weights, is a common method to limit over-fitting and promote model generalization. It has been found to be particularly beneficial for prediction tasks on multivariate time-series (Zhou et al., 2019), and thus yields the following objective: 
 
-Talk about used loss function
+\begin{equation}
+\text{obj} = 
+\end{equation}
 
-Talk about validation: we want it to be good at predicting 4 steps forward, but especially the final timesteps. Maybe a weighted loss? Could use this: 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7038523/
+where ... 
 
-Talk about dimension reduction, since the LSTM and Shapelet-based classifications are effectively dimension reduction techniques. LSTM uses a sort of encoder to describe long and short term dependencies, while the shapelet gives you a basis transform. 
-
-## Shapelet-based neural networks
+GRUs are introduced by ... to reduce the number of model parameters by utilizing only two gates per recurrence. Figure X illustrates the architecture and the relevant equations. 
 
 ## Extra
 
