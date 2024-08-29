@@ -2,17 +2,30 @@
 
 ## Predictor importance
 
-There is a rich literature in applied statistics with the goal of quantifying predictor importance in regression with observational data 
+Go over explained variance in a linear model and R2 quickly
 
-Lindeman, Merenda, and Gold (1980) - referred as LMG - proposes to quantify predictor importance in a linear regression model by computing the average sequential sums-of-squares over all predictor orderings. Feldman (2005) extended this approach with Proportional Marginal Variance Decomposition (PMVD) that instead considers a weighted average with weights chosen to enforce the exclusion criteria - a predictor with zero coefficient is allocated zero importance (Gromping, 2007). Breiman (2001) instead proposes to measure importance of a predictor by assessing the model's loss of accuracy due to random permutations of the predictor.
+The question of how to rank the influence a certain predictor on a response compared to other predictors is a common. In the context of linear regression models, Lindeman, Merenda, and Gold (1980) - referred to as LMG - propose to quantify predictor importance by computing the average sequential sums-of-squares over all predictor orderings. Averaging over all orderings allows this measure to capture both direct effects and secondary effects of a predictor. Feldman (2005) extended this approach with Proportional Marginal Variance Decomposition (PMVD) that instead considers a weighted average with weights chosen to enforce the exclusion criteria - a predictor with zero coefficient is allocated zero importance (Gromping, 2007). Breiman (2001) instead proposes to measure importance of a predictor by assessing the model's loss of accuracy due to random permutations of the predictor.
 
+This methods have however been shown to be susceptible to data with highly correlated predictors, as is often the case in observational settings lacking causal assumptions (). With many predictors, LMG and PMVD become computationally intensive, as they require computation of R2 values over all possible orderings. Permutation-based methods scale linearly with the number of predictors but may require running many permutations of each column to output estimates with low variance.  
 
 ## Deep Learning
 
-Machine learning and in particular Deep Learning architectures have recently received a lot of attention in atmospheric and climate sciences due to their performance in modelling complex high-dimensional systems and their computational efficiency in comparison to Numeric Weather Prediction and Climate Models (eg. ...). Learning parameterizations from simulated and observational datasets has been the primary focus of DL applications (Barahona et al., 2023). The modelling and processing of data with sequential structure - such as timeseries - requires an architecture that can capture .... Recurrent Neural Networks (RNNs) ... Long Short-Term Memory (LSTM) models are a type of RNN that were introduced by Hochreiter and Schmidhuber (1997) to solve the problem of vanishing gradients in applications with long-term dependencies. 
-Each LSTM layer is composed of three gates - the input, forget and output gates - that are recurrently computed one timestep at a time to update hidden states storing temporal information. An LSTM node processes input ... in the following way:
+Machine learning and in particular deep learning (DL) architectures have recently received a lot of attention in atmospheric and climate sciences due to their performance in modelling complex high-dimensional systems and their computational efficiency in comparison to numerical weather prediction (eg. ...). Supervised DL involves the parameterization of arbitrarily complex functions called networks and estimation - or learning - of these parameters by propagating input data through the network and evaluating the outputs accuracy against the given truth - called the loss. By using a differentiable loss function, the parameters of the network can be updated. With sufficient data and learning iterations, the parameters will be progressively updated to improve accuracy. 
+
+The modelling and processing of sequential data requires specific architectures such as Recurrent Neural Networks (RNNs) that can capture auto-correlations and cross-correlations in multivariate inputs. Long Short-Term Memory (LSTM) models are a type of RNN that were introduced by Hochreiter and Schmidhuber (1997) to solve the problem of vanishing gradients - when parameter updates become zero due to decreasing gradient magnitudes - in applications with long-term dependencies. An LSTM layer is composed of a number of nodes, each composed of four operations called gates: two input and one forget and output gates. Given a sequence of data, each node recurrently propagates one timestep at a time through the gates to update two parameters that store temporal information. These are the hidden states that are used to communicate information from one timestep to the next, and cell states to retain the sequence's memory. More explicitly, given initial hidden state $h_{t-1}$ and cell states $C_{t-1}$, an input $x_t$ at time-step $t$ is processed in the following way:
 
 \begin{equation}
-   V(\{ T' \}_{1:n}) = \sum_{c \in \{\text{adv},\text{adiab},\text{diab}\}} V(\{ c \}_{1:n} ) + \sum_{c, d \in \{\text{adv},\text{adiab},\text{diab}\} , c\neq d} \text{Cov}(\{ c \}_{1:n} ,\{ d \}_{1:n})
-(\#eq:vardecomp)
+  \begin{aligned}
+    k_t &= \sigma \left( W_k \cdot [h_{t-1}, x_t] + b_k \right) \\
+    l_t &= \sigma \left( W_l \cdot [h_{t-1}, x_t] + b_l\right) \\
+    \tilde{C}_t &= \tanh \left( W_{\tilde{C}} \cdot [ h_{t-1}, x_t ] + b_{\tilde{C}}\right) \\
+    C_t &= k_t \ast C_{t-1} + l_{t} \ast \tilde{C}_t \\
+    m_t &= \sigma \left( W_m [h_{t-1}, x_t] + b_m\right) \\
+    h_t &= m_t \ast \tanh (C_t)
+  \end{aligned}
+(\#eq:lstm)
 \end{equation}
+
+where $\sigma$ and $\tanh$ are the sigma and tanh activation function; $W_i$ are matrices of model parameters; $k,l$ and $m$ are interim states.
+
+Learning parameterizations from simulated and observational datasets has been the primary focus of DL applications (Barahona et al., 2023).
