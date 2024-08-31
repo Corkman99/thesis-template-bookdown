@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  31 AUG 2024 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  31 AUG 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,7 +574,7 @@ File: lstlang3.sty 2024/05/25 1.10b listings language file
 )
 \c@definition=\count321
 LaTeX Font Info:    Trying to load font information for T1+aer on input line 11
-1.
+2.
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )
@@ -586,24 +586,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux))
 \openout1 = `thesis_SfS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
@@ -630,7 +630,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 111.
+Package hyperref Info: Link coloring ON on input line 112.
 (thesis_SfS.out) (thesis_SfS.out)
 \@outlinefile=\write3
 \openout3 = `thesis_SfS.out'.
@@ -652,18 +652,18 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 \c@lstlisting=\count329
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <10.95> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 132.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 133.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133
 .
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133
 .
 (C:\Users\Corkman\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -795,13 +795,16 @@ Package xcolor Warning: Incompatible color definition on input line 30.
 Package xcolor Warning: Incompatible color definition on input line 31.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package xcolor Warning: Incompatible color definition on input line 32.
 
 
-Package xcolor Warning: Incompatible color definition on input line 35.
+Package xcolor Warning: Incompatible color definition on input line 34.
 
 
 Package xcolor Warning: Incompatible color definition on input line 36.
+
+
+Package xcolor Warning: Incompatible color definition on input line 37.
 
 )
 \tf@toc=\write4
@@ -867,21 +870,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 2
-08.
-LaTeX Font Info:    No file TS1aer.fd. on input line 208.
+09.
+LaTeX Font Info:    No file TS1aer.fd. on input line 209.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textdegree' on input line 208.
+(Font)              for symbol `textdegree' on input line 209.
 
 
-Overfull \hbox (14.73932pt too wide) in paragraph at lines 208--209
+Overfull \hbox (14.73932pt too wide) in paragraph at lines 209--210
 \T1/aer/m/n/10.95 high mor-tal-ity and mor-bid-ity rates in cer-tain de-mo-grap
 h-ics (medina-ramon_temperature_2007
  []
 
 
-Overfull \hbox (4.23303pt too wide) in paragraph at lines 208--209
+Overfull \hbox (4.23303pt too wide) in paragraph at lines 209--210
 \T1/aer/m/n/10.95 Medina-Ramón et al., 2007; oudin_astrom_heat_2011 As-trom et 
 al., 2011;green_impact_2019
  []
@@ -893,16 +896,16 @@ al., 2011;green_impact_2019
 [4]
 Chapter 2.
 
-Package xcolor Warning: Incompatible color definition on input line 224.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 224.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 224.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 224.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
 
@@ -910,18 +913,18 @@ Package xcolor Warning: Incompatible color definition on input line 224.
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 234.
+Package xcolor Warning: Incompatible color definition on input line 235.
 
 
-Package xcolor Warning: Incompatible color definition on input line 234.
+Package xcolor Warning: Incompatible color definition on input line 235.
 
 
 
 [6]
-<images/mean_contribution.png, id=279, 975.645pt x 474.8139pt>
+<images/mean_contribution.png, id=284, 975.645pt x 474.8139pt>
 File: images/mean_contribution.png Graphic file (type png)
 <use images/mean_contribution.png>
-Package pdftex.def Info: images/mean_contribution.png  used on input line 237.
+Package pdftex.def Info: images/mean_contribution.png  used on input line 238.
 (pdftex.def)             Requested size: 426.79134pt x 207.70883pt.
 
 
@@ -929,10 +932,10 @@ Package pdftex.def Info: images/mean_contribution.png  used on input line 237.
 
 [8]
 
-Package xcolor Warning: Incompatible color definition on input line 274.
+Package xcolor Warning: Incompatible color definition on input line 275.
 
 
-Package xcolor Warning: Incompatible color definition on input line 274.
+Package xcolor Warning: Incompatible color definition on input line 275.
 
 
 
@@ -948,46 +951,53 @@ Chapter 3.
 
 [12]
 
-Package xcolor Warning: Incompatible color definition on input line 336.
+Package xcolor Warning: Incompatible color definition on input line 362.
 
-<images/lstm_fig.png, id=314, 433.62pt x 367.92pt>
+
+
+[13]
+<images/lstm_fig.png, id=330, 433.62pt x 367.92pt>
 File: images/lstm_fig.png Graphic file (type png)
 <use images/lstm_fig.png>
-Package pdftex.def Info: images/lstm_fig.png  used on input line 340.
+Package pdftex.def Info: images/lstm_fig.png  used on input line 366.
 (pdftex.def)             Requested size: 341.43436pt x 289.71606pt.
 
 
-[13 <./images/lstm_fig.png>]
-
-[14]
+[14 <./images/lstm_fig.png>]
 Chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 359.
-
-<images/flat_data.png, id=326, 1006.7211pt x 630.9171pt>
-File: images/flat_data.png Graphic file (type png)
-<use images/flat_data.png>
-Package pdftex.def Info: images/flat_data.png  used on input line 365.
-(pdftex.def)             Requested size: 426.79134pt x 267.47676pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package xcolor Warning: Incompatible color definition on input line 379.
 
 
-Package xcolor Warning: Incompatible color definition on input line 370.
+Package xcolor Warning: Incompatible color definition on input line 379.
+
+
+Package xcolor Warning: Incompatible color definition on input line 385.
+
+
+Package natbib Warning: Citation `ref' on page 15 undefined on input line 388.
 
 
 
 [15
 
 ]
-<images/timeseries_data.png, id=333, 1156.32pt x 867.24pt>
+<images/flat_data.png, id=344, 1006.7211pt x 630.9171pt>
+File: images/flat_data.png Graphic file (type png)
+<use images/flat_data.png>
+Package pdftex.def Info: images/flat_data.png  used on input line 391.
+(pdftex.def)             Requested size: 426.79134pt x 267.47676pt.
+
+Package xcolor Warning: Incompatible color definition on input line 396.
+
+
+Package natbib Warning: Citation `ref' on page 16 undefined on input line 396.
+
+<images/timeseries_data.png, id=346, 1156.32pt x 867.24pt>
 File: images/timeseries_data.png Graphic file (type png)
 <use images/timeseries_data.png>
-Package pdftex.def Info: images/timeseries_data.png  used on input line 373.
+Package pdftex.def Info: images/timeseries_data.png  used on input line 399.
 (pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [16 <./images/flat_data.png>]
@@ -999,4 +1009,256 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 Chapter 5.
 
-Package xcolor 
+Package xcolor Warning: Incompatible color definition on input line 408.
+
+
+Package xcolor Warning: Incompatible color definition on input line 417.
+
+
+
+[19]
+
+Package xcolor Warning: Incompatible color definition on input line 421.
+
+
+Package xcolor Warning: Incompatible color definition on input line 421.
+
+
+Package natbib Warning: Citation `halko_finding_2011' on page 20 undefined on i
+nput line 425.
+
+
+
+[20]
+
+Package xcolor Warning: Incompatible color definition on input line 438.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+<images/test_train_fig.png, id=376, 433.62pt x 399.018pt>
+File: images/test_train_fig.png Graphic file (type png)
+<use images/test_train_fig.png>
+Package pdftex.def Info: images/test_train_fig.png  used on input line 444.
+(pdftex.def)             Requested size: 384.10959pt x 353.47491pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[21]
+
+[22 <./images/test_train_fig.png>]
+Chapter 6.
+
+Package xcolor Warning: Incompatible color definition on input line 455.
+
+
+
+[23
+
+]
+<images/vardecomp.png, id=393, 1019.7297pt x 804.3651pt>
+File: images/vardecomp.png Graphic file (type png)
+<use images/vardecomp.png>
+Package pdftex.def Info: images/vardecomp.png  used on input line 464.
+(pdftex.def)             Requested size: 426.79134pt x 336.65277pt.
+
+
+[24 <./images/vardecomp.png>]
+
+Package xcolor Warning: Incompatible color definition on input line 477.
+
+<images/dominant.png, id=400, 675.0018pt x 575.2692pt>
+File: images/dominant.png Graphic file (type png)
+<use images/dominant.png>
+Package pdftex.def Info: images/dominant.png  used on input line 480.
+(pdftex.def)             Requested size: 426.79134pt x 363.72942pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[25]
+
+Package xcolor Warning: Incompatible color definition on input line 497.
+
+<images/pca_explainedvar.png, id=406, 947.4597pt x 631.6398pt>
+File: images/pca_explainedvar.png Graphic file (type png)
+<use images/pca_explainedvar.png>
+Package pdftex.def Info: images/pca_explainedvar.png  used on input line 500.
+(pdftex.def)             Requested size: 426.79134pt x 284.52443pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package xcolor Warning: Incompatible color definition on input line 503.
+
+
+
+[26]
+
+[27]
+
+[28 <./images/dominant.png>]
+
+[29 <./images/pca_explainedvar.png>]
+
+[30
+
+]
+Chapter 7.
+
+
+[31]
+
+[32
+
+]
+Chapter 8.
+
+
+[33]
+
+[34
+
+] (thesis_SfS.bbl)
+
+[35
+
+]
+\openout2 = `tex/Appendix1.aux'.
+
+(tex/Appendix1.tex
+
+[36
+
+
+]
+Appendix A.
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <14.4> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 9.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 9.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.04074pt
+(hyperref)                removed on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 9.
+
+)
+
+[37]
+
+[38
+
+
+
+]
+<pdf/confirmation-originality.pdf, id=466, 597.50829pt x 845.0471pt>
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf>
+Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
+73.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf>
+Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
+73.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<pdf/confirmation-originality.pdf, id=469, page=1, 597.50829pt x 845.0471pt>
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 573.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 573.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 573.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 573.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 573.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[39
+
+ <./pdf/confirmation-originality.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+(thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
+(rerunfilecheck)             Checksum: F92AAEC9249A2C95D01FBDC98F0D2ED1;5965.
+ ) 
+Here is how much of TeX's memory you used:
+ 16029 strings out of 473904
+ 250651 string characters out of 5725656
+ 1955908 words of memory out of 5000000
+ 38433 multiletter control sequences out of 15000+600000
+ 603661 words of font info for 125 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 105i,19n,107p,2027b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Corkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1095.pk><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmb10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Corkman/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Corkman/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Corkma
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Corkman/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Corkman/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Corkman/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/C
+orkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/latxfont/linew10.pfb><C:/Users/Corkman/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Cork
+man/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb
+><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on thesis_SfS.pdf (49 pages, 4460181 bytes).
+PDF statistics:
+ 614 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+
