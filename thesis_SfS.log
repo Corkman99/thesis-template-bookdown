@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  29 AUG 2024 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  31 AUG 2024 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,11 +583,7 @@ dftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 \l__pdf_internal_box=\box67
-) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux)
-
-LaTeX Warning: Label `eq:vardecomp' multiply defined.
-
-(tex/Appendix1.aux))
+) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux))
 \openout1 = `thesis_SfS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
@@ -796,13 +792,16 @@ Package xcolor Warning: Incompatible color definition on input line 29.
 Package xcolor Warning: Incompatible color definition on input line 30.
 
 
-Package xcolor Warning: Incompatible color definition on input line 32.
+Package xcolor Warning: Incompatible color definition on input line 31.
 
 
-Package xcolor Warning: Incompatible color definition on input line 34.
+Package xcolor Warning: Incompatible color definition on input line 33.
 
 
 Package xcolor Warning: Incompatible color definition on input line 35.
+
+
+Package xcolor Warning: Incompatible color definition on input line 36.
 
 )
 \tf@toc=\write4
@@ -818,6 +817,9 @@ Package xcolor Warning: Incompatible color definition on input line 35.
 Package xcolor Warning: Incompatible color definition on input line 4.
 
 
+Package xcolor Warning: Incompatible color definition on input line 6.
+
+
 Package xcolor Warning: Incompatible color definition on input line 8.
 
 
@@ -827,28 +829,38 @@ Package xcolor Warning: Incompatible color definition on input line 9.
 Package xcolor Warning: Incompatible color definition on input line 11.
 
 
-Package xcolor Warning: Incompatible color definition on input line 12.
-
-
 Package xcolor Warning: Incompatible color definition on input line 13.
+
+
+Package xcolor Warning: Incompatible color definition on input line 14.
+
+
+Package xcolor Warning: Incompatible color definition on input line 15.
 
 )
 \tf@lof=\write5
 \openout5 = `thesis_SfS.lof'.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7] (thesis_SfS.lot)
+
+
+[7]
+
+[8] (thesis_SfS.lot)
 \tf@lot=\write6
 \openout6 = `thesis_SfS.lot'.
 
 
 
-[8]
+[9]
 
-[1
+[10
 
 ]
+
+[1]
 
 [2
 
@@ -861,6 +873,18 @@ LaTeX Font Info:    No file TS1aer.fd. on input line 208.
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textdegree' on input line 208.
+
+
+Overfull \hbox (14.73932pt too wide) in paragraph at lines 208--209
+\T1/aer/m/n/10.95 high mor-tal-ity and mor-bid-ity rates in cer-tain de-mo-grap
+h-ics (medina-ramon_temperature_2007
+ []
+
+
+Overfull \hbox (4.23303pt too wide) in paragraph at lines 208--209
+\T1/aer/m/n/10.95 Medina-Ramón et al., 2007; oudin_astrom_heat_2011 As-trom et 
+al., 2011;green_impact_2019
+ []
 
 
 
@@ -894,7 +918,7 @@ Package xcolor Warning: Incompatible color definition on input line 234.
 
 
 [6]
-<images/mean_contribution.png, id=262, 975.645pt x 474.8139pt>
+<images/mean_contribution.png, id=279, 975.645pt x 474.8139pt>
 File: images/mean_contribution.png Graphic file (type png)
 <use images/mean_contribution.png>
 Package pdftex.def Info: images/mean_contribution.png  used on input line 237.
@@ -923,289 +947,56 @@ Chapter 3.
 [11]
 
 [12]
-Chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 318.
+Package xcolor Warning: Incompatible color definition on input line 336.
 
-
-Package xcolor Warning: Incompatible color definition on input line 327.
-
-
-
-[13
-
-]
-
-Package xcolor Warning: Incompatible color definition on input line 331.
+<images/lstm_fig.png, id=314, 433.62pt x 367.92pt>
+File: images/lstm_fig.png Graphic file (type png)
+<use images/lstm_fig.png>
+Package pdftex.def Info: images/lstm_fig.png  used on input line 340.
+(pdftex.def)             Requested size: 341.43436pt x 289.71606pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 331.
-
-
+[13 <./images/lstm_fig.png>]
 
 [14]
-Overfull \hbox (3.7125pt too wide) in paragraph at lines 348--349
-[]\T1/aer/m/n/10.95 LSTMs are known to be very flex-i-ble mod-els but are prone
- to over-fitting. L2-regularization,
- []
+Chapter 4.
 
+Package xcolor Warning: Incompatible color definition on input line 359.
 
-
-[15]
-
-[16
-
-]
-Chapter 5.
-
-Package xcolor Warning: Incompatible color definition on input line 370.
-
-<images/flat_data.png, id=318, 1006.7211pt x 630.9171pt>
+<images/flat_data.png, id=326, 1006.7211pt x 630.9171pt>
 File: images/flat_data.png Graphic file (type png)
 <use images/flat_data.png>
-Package pdftex.def Info: images/flat_data.png  used on input line 376.
+Package pdftex.def Info: images/flat_data.png  used on input line 365.
 (pdftex.def)             Requested size: 426.79134pt x 267.47676pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package xcolor Warning: Incompatible color definition on input line 381.
+Package xcolor Warning: Incompatible color definition on input line 370.
 
 
 
-[17]
-<images/timeseries_data.png, id=325, 1156.32pt x 867.24pt>
+[15
+
+]
+<images/timeseries_data.png, id=333, 1156.32pt x 867.24pt>
 File: images/timeseries_data.png Graphic file (type png)
 <use images/timeseries_data.png>
-Package pdftex.def Info: images/timeseries_data.png  used on input line 384.
+Package pdftex.def Info: images/timeseries_data.png  used on input line 373.
 (pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[18 <./images/flat_data.png>]
+[16 <./images/flat_data.png>]
 
-[19 <./images/timeseries_data.png>]
+[17 <./images/timeseries_data.png>]
 
-[20
-
-]
-Chapter 6.
-
-Package xcolor Warning: Incompatible color definition on input line 391.
-
-
-
-[21]
-<images/vardecomp.png, id=345, 1019.7297pt x 804.3651pt>
-File: images/vardecomp.png Graphic file (type png)
-<use images/vardecomp.png>
-Package pdftex.def Info: images/vardecomp.png  used on input line 400.
-(pdftex.def)             Requested size: 426.79134pt x 336.65277pt.
-
-
-[22 <./images/vardecomp.png>]
-
-Package xcolor Warning: Incompatible color definition on input line 413.
-
-<images/dominant.png, id=352, 688.7331pt x 586.1097pt>
-File: images/dominant.png Graphic file (type png)
-<use images/dominant.png>
-Package pdftex.def Info: images/dominant.png  used on input line 416.
-(pdftex.def)             Requested size: 426.79134pt x 363.19644pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[23]
-
-Package xcolor Warning: Incompatible color definition on input line 433.
-
-<images/pca_explainedvar.png, id=359, 947.4597pt x 631.6398pt>
-File: images/pca_explainedvar.png Graphic file (type png)
-<use images/pca_explainedvar.png>
-Package pdftex.def Info: images/pca_explainedvar.png  used on input line 436.
-(pdftex.def)             Requested size: 426.79134pt x 284.52443pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package xcolor Warning: Incompatible color definition on input line 439.
-
-
-
-[24]
-
-[25]
-
-[26 <./images/dominant.png>]
-
-[27 <./images/pca_explainedvar.png>]
-
-[28
+[18
 
 ]
-Chapter 7.
+Chapter 5.
 
-
-[29]
-
-[30
-
-]
-Chapter 8.
-
-
-[31]
-
-[32
-
-] (thesis_SfS.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-[]\T1/aer/m/n/10.95 Lupo, A. R. (2021).  At-mo-spheric block-ing events: a re-v
-iew.  \T1/aer/m/it/10.95 An-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\T1/aer/m/it/10.95 nals of the New York Academy of Sci-ences 1504\T1/aer/m/n/10
-.95 (1), 5--24.  _eprint:
- []
-
-)
-
-[33
-
-]
-\openout2 = `tex/Appendix1.aux'.
-
-(tex/Appendix1.tex
-
-[34
-
-
-]
-Appendix A.
-LaTeX Font Info:    Font shape `T1/aess/b/n' in size <14.4> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 9.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 9.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 9.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 9.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 3.04074pt
-(hyperref)                removed on input line 9.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 9.
-
-)
-
-[35]
-
-[36
-
-
-
-]
-<pdf/confirmation-originality.pdf, id=419, 597.50829pt x 845.0471pt>
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf>
-Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
-09.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf>
-Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
-09.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=422, page=1, 597.50829pt x 845.0471pt>
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 509.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 509.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 509.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 509.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 509.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[37
-
- <./pdf/confirmation-originality.pdf>] (thesis_SfS.aux (tex/Preface.aux) (tex/A
-bstract.aux) (tex/Appendix1.aux))
- ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
- ***********
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
-(rerunfilecheck)             Checksum: 2F3D453232FF0DC04E1AA4CD5D016432;5669.
- ) 
-Here is how much of TeX's memory you used:
- 15983 strings out of 473904
- 249749 string characters out of 5725656
- 1955908 words of memory out of 5000000
- 38399 multiletter control sequences out of 15000+600000
- 603661 words of font info for 125 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 105i,19n,107p,1741b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Corkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1095.pk><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmb10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Corkman/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Corkman/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Corkm
-an/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
-sers/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Corkman/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Corkman/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-<C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmti10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmti9.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/latxfont/linew10.pfb>
-Output written on thesis_SfS.pdf (45 pages, 3004615 bytes).
-PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package xcolor 

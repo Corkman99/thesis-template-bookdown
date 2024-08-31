@@ -33,6 +33,12 @@ lof: no
 site: bookdown::bookdown_site
 ---
 
+<style>
+p.caption {
+  font-size: 0.6em;
+}
+</style>
+
 ---
 #[comment]: <> (You'd usually put a preface here and get rid of the warning:
 #Warning message:

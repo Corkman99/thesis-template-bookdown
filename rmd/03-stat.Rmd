@@ -1,31 +1,63 @@
 # Statistical Background
 
+## Variance 
+
+Variance is a measure of dispersion - or spread - of a distribution and is defined as the expected squared deviation from the mean. Given random variable $X \sim \mathcal{F}$, the variance of $X$ is given by $\mathbb{V}[X] = \mathbb{E}\left[ (X-\mathbb{E}[X])^2 \right]$. Conversely to the expectation, variance is a non-linear operator. Given two random variables $X \sim \mathcal{F}_X$ and $Y \sim \mathcal{F}_Y$: 
+\begin{equation}
+\begin{aligned}
+\mathbb{V}[X+Y] & = \mathbb{E}\left[ (X+Y - \mathbb{E}[X+Y])^2\right] \\
+& = \mathbb{E} \left[ (X - \mathbb{E}[X])^2\right] + \mathbb{E} \left[ (Y - \mathbb{E}[Y])^2\right] + 2 \, \mathbb{E}\left[ (X - \mathbb{E}[X])(Y-\mathbb{E}[Y]) \right] \\
+& = \mathbb{V}[X] + \mathbb{V}[Y] + 2 \, \mathbb{C}\text{ov}[X,Y]
+\end{aligned}
+(\#eq:vardef)
+\end{equation}
+
+by linearity of the expectation. The last term is called the covariance between $X$ and $Y$ and is a measure of linear association between two random variables. Trivially, the covariance between $X$ and $X$ is the variance of $X$.
+
+These quantities serve as the basis for most statistical models. Normalizing covariance by the square-root of the variance of $X$ and $Y$ yields the Pearson correlation coefficient $\rho_{X,Y}$ that is often preferred as a summary measure of linear association since it can be compared between random variables with different scales. In regression, other common measure of association between the response $Y$ and one or more predictors $X_{1:k}$ includes the coefficient of determination $R^2$ measuring the proportion of the variance of $Y$ that is predicted by $X_{1:k}$.
+
+In practice, one often assumed that observed data samples $\{(x_{1},y_{1}),...,(x_n,y_n)\}$ are independent draws from some joint distribution. Then, assuming that the mean and covariance of the distribution are finite, the following provide the sample estimates of the variance of the marginal distributions $\hat{\mathbb{V}}$ and the covariance of the joint distribution $\hat{\mathbb{C}\text{ov}}$:
+
+\begin{equation}
+\begin{aligned}
+\hat{\mathbb{V}}[\{x_{1:n}\}] &= \frac{1}{n-1} \sum_{i=1}^n \left( x_i - \bar{x} \right)^2 \\
+\hat{\mathbb{C}\text{ov}}[\{x_{1:n}\},\{y_{1:n}\}] &= \frac{1}{n-1} \sum_{i=1}^n ( x_i - \bar{x})(y_i - \bar{y})
+\end{aligned}
+(\#eq:samplevar)
+\end{equation}
+
+where $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$ is the sample mean of $X$. Note the normalizing factor $n-1$ that ensures the estimate is unbiased - in repeated sampling, the average estimates equal the true quantity. 
+
 ## Predictor importance
 
-Go over explained variance in a linear model and R2 quickly
+The question of how to rank the influence a certain predictor on a response compared to other predictors is a common. Although $R^2$ is often reported to provide comparisons of model fit and thus measure the value of certain predictors in explaining the variance of the response, it does not take into account interactions between predictors. Instead, in the context of linear regression models, Lindeman, Merenda and Gold (1980) - referred to as LMG - propose to quantify predictor importance by computing the average sequential sums-of-squares over all predictor orderings. Averaging over all orderings allows this measure to capture both direct effects and secondary effects of a predictor. Feldman (2005) extended this approach with Proportional Marginal Variance Decomposition (PMVD) that instead considers a weighted average with weights chosen to enforce the exclusion criteria - a predictor with zero coefficient is allocated zero importance (Gromping, 2007). Breiman (2001), and extensions thereof, instead propose to measure importance of a predictor by assessing the model's loss of accuracy due to random permutations of the predictor values. 
 
-The question of how to rank the influence a certain predictor on a response compared to other predictors is a common. In the context of linear regression models, Lindeman, Merenda, and Gold (1980) - referred to as LMG - propose to quantify predictor importance by computing the average sequential sums-of-squares over all predictor orderings. Averaging over all orderings allows this measure to capture both direct effects and secondary effects of a predictor. Feldman (2005) extended this approach with Proportional Marginal Variance Decomposition (PMVD) that instead considers a weighted average with weights chosen to enforce the exclusion criteria - a predictor with zero coefficient is allocated zero importance (Gromping, 2007). Breiman (2001) instead proposes to measure importance of a predictor by assessing the model's loss of accuracy due to random permutations of the predictor.
-
-This methods have however been shown to be susceptible to data with highly correlated predictors, as is often the case in observational settings lacking causal assumptions (). With many predictors, LMG and PMVD become computationally intensive, as they require computation of R2 values over all possible orderings. Permutation-based methods scale linearly with the number of predictors but may require running many permutations of each column to output estimates with low variance.  
+This methods have however been shown to be susceptible to data with highly correlated predictors, as is often the case in observational settings lacking causal assumptions. Furthermore, with many predictors, LMG and PMVD become computationally intensive, as they require computation of R2 values over all possible orderings. Permutation-based methods scale linearly with the number of predictors but may require running many permutations of each column to output estimates with low variance.
 
 ## Deep Learning
 
-Machine learning and in particular deep learning (DL) architectures have recently received a lot of attention in atmospheric and climate sciences due to their performance in modelling complex high-dimensional systems and their computational efficiency in comparison to numerical weather prediction (eg. ...). Supervised DL involves the parameterization of arbitrarily complex functions called networks and estimation - or learning - of these parameters by propagating input data through the network and evaluating the outputs accuracy against the given truth - called the loss. By using a differentiable loss function, the parameters of the network can be updated. With sufficient data and learning iterations, the parameters will be progressively updated to improve accuracy. 
+Machine learning and in particular deep learning (DL) architectures have recently received a lot of attention in atmospheric and climate sciences due to their performance in modelling complex high-dimensional systems and their computational efficiency in comparison to numerical weather prediction. DL models have largely been used to develop weather forecasting models (see for example Srivastava and S, 2022) and to learn parameterizations from simulated and observational datasets (Barahona et al., 2023). Here, I provide a brief introduction to a DL architecture that has been used extensively in timeseries applications. 
 
-The modelling and processing of sequential data requires specific architectures such as Recurrent Neural Networks (RNNs) that can capture auto-correlations and cross-correlations in multivariate inputs. Long Short-Term Memory (LSTM) models are a type of RNN that were introduced by Hochreiter and Schmidhuber (1997) to solve the problem of vanishing gradients - when parameter updates become zero due to decreasing gradient magnitudes - in applications with long-term dependencies. An LSTM layer is composed of a number of nodes, each composed of four operations called gates: two input and one forget and output gates. Given a sequence of data, each node recurrently propagates one timestep at a time through the gates to update two parameters that store temporal information. These are the hidden states that are used to communicate information from one timestep to the next, and cell states to retain the sequence's memory. More explicitly, given initial hidden state $h_{t-1}$ and cell states $C_{t-1}$, an input $x_t$ at time-step $t$ is processed in the following way:
+Supervised DL involves the parameterization of arbitrarily complex functions - called networks - and estimation of these parameters by propagating input data through the network and evaluating the outputs' accuracy against the given truth - called the loss. By using a differentiable loss and network, the parameters can be updated. With sufficient data and learning iterations, the parameters will be progressively updated to improve accuracy. 
+
+The modelling and processing of sequential data requires specific architectures such as Recurrent Neural Networks (RNNs) that can leverage dependencies. Long Short-Term Memory (LSTM) models are a type of RNN that were introduced by Hochreiter and Schmidhuber (1997) to solve the problem of vanishing gradients - when parameter updates become zero due to decreasing gradient magnitudes - in applications with long-term temporal dependencies. An LSTM layer is composed of a number of units, each composed of three nodes called gates: the input, forget and output gates. Given a sequence of data, each unit recurrently propagates a data sequence one timestep at a time to update the gate parameters and layer parameters that store temporal information: the hidden states that are used to communicate information from one timestep to the next, and cell states that retain a memory of the sequence characteristics. More explicitly, given initial hidden $H_{t-1}$ and cell states $C_{t-1}$, an input $x_t$ at time-step $t$ is processed in the following way:
 
 \begin{equation}
   \begin{aligned}
-    k_t &= \sigma \left( W_k \cdot [h_{t-1}, x_t] + b_k \right) \\
-    l_t &= \sigma \left( W_l \cdot [h_{t-1}, x_t] + b_l\right) \\
-    \tilde{C}_t &= \tanh \left( W_{\tilde{C}} \cdot [ h_{t-1}, x_t ] + b_{\tilde{C}}\right) \\
+    k_t &= \sigma \left( W_k \cdot [H_{t-1}, x_t] + b_k \right) \\
+    l_t &= \sigma \left( W_l \cdot [H_{t-1}, x_t] + b_l\right) \\
+    \tilde{C}_t &= \tanh \left( W_{\tilde{C}} \cdot [ H_{t-1}, x_t ] + b_{\tilde{C}}\right) \\
     C_t &= k_t \ast C_{t-1} + l_{t} \ast \tilde{C}_t \\
-    m_t &= \sigma \left( W_m [h_{t-1}, x_t] + b_m\right) \\
-    h_t &= m_t \ast \tanh (C_t)
+    m_t &= \sigma \left( W_m \cdot [H_{t-1}, x_t] + b_m\right) \\
+    H_t &= m_t \ast \tanh (C_t)
   \end{aligned}
 (\#eq:lstm)
 \end{equation}
 
-where $\sigma$ and $\tanh$ are the sigma and tanh activation function; $W_i$ are matrices of model parameters; $k,l$ and $m$ are interim states.
+where $\sigma$ and $\tanh$ are the sigma and tanh activation functions; $W_i$ and $b_i$ are matrices of gate parameters; $k_t,l_t$ and $m_t$ are the outputs of the forget, input and output gates respectively. A schematic representation of this process can be found in Figure \@ref(fig:lstm). 
 
-Learning parameterizations from simulated and observational datasets has been the primary focus of DL applications (Barahona et al., 2023).
+```{r lstm, fig.cap="(a) Representation of an LSTM cell (in orange) that, given intitial hidden states $H_{t-1}$, cell states $C_{t-1}$ and an input $x_t$ outputs the updated hidden $H_{t}$ and cell $C_{t}$ states. Purple shapes represents operations: $\\ast$ matrix multiplication, $+$ element-wise addition, tanh the activation function, and the Forget, Input and Output gates are as define in equations 3.3. (b) The same LSTM cell but unfolded. For an input of initial hidden states $H_{0}$, cell states $C_{0}$ and data sequence $x_{1:n}$, it outputs hidden states $H_t$ that can then be further processed (e.g. by a fully connected layer).", echo=FALSE, out.width="80%", fig.pos = 'h', fig.align='center'}
+knitr::include_graphics("images/lstm_fig.png")
+```
+
+LSTM layers may used in different ways depending on the data structure and task at hand. In timeseries forecasting applications, most models use the final hidden states $H_t$ of one or two LSTM layers for every input as lower-dimensional feature representations that are then further processed by one or more fully-connected NN layers. There is a rich and evolving literature on LSTM-based architectures and LSTM variants and I refer the reader to comprehensive review papers such as Hu et al. (2020) and Han et al. (2021).
