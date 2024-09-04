@@ -1,5 +1,5 @@
 --- 
-title: "Investigating TX1day yearly maxima variability globally"
+title: "Investigating year-to-year variability in TX1day and contributions from heat-generating mechanisms"
 author: "Marco Froelich"
 date: "September 2024"
 submission_date: "September 16th, 2024"
@@ -13,6 +13,7 @@ output:
     keep_tex: yes
     pandoc_args: --top-level-division=chapter
     citation_package: natbib
+    biblio-style: apalike
     latex_engine: pdflatex
     toc_depth: 3
     toc_unnumbered: no
@@ -24,27 +25,11 @@ output:
     includes:
       in_header: tex/preamble.tex
   bookdown::gitbook: default
-bibliography: [bib/bib.bib]
-biblio-style: apalike
+bibliography: bib/bib.bib
 link-citations: yes
 colorlinks: no  
 lot: no
 lof: no
 site: bookdown::bookdown_site
----
-
-<style>
-p.caption {
-  font-size: 0.6em;
-}
-</style>
-
----
-#[comment]: <> (You'd usually put a preface here and get rid of the warning:
-#Warning message:
-#In split_chapters(output, gitbook_page, number_sections, split_by,  :
-#  You have 8 Rmd input file(s) but only 7 first-level heading(s). Did you 
-#  forget first-level headings in certain Rmd files?
-#)
 ---
  
