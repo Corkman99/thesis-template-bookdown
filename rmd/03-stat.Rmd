@@ -1,5 +1,7 @@
 # Statistical Background
 
+This chapter presents ...
+
 ## Variance 
 
 Variance is a measure of dispersion - or spread - of a distribution and is defined as the expected squared deviation from the mean. Given random variable $X \sim \mathcal{F}$, the variance of $X$ is given by $\mathbb{V}[X] = \mathbb{E}\left[ (X-\mathbb{E}[X])^2 \right]$. Conversely to the expectation, variance is a non-linear operator. Given two random variables $X \sim \mathcal{F}_X$ and $Y \sim \mathcal{F}_Y$: 
