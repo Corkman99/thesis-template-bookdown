@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  9 SEP 2024 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.31)  9 SEP 2024 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,7 +605,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 \l__pdf_internal_box=\box67
 ) (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux) (tex
-/Appendix2.aux))
+/Appendix2.aux) (tex/Appendix3.aux))
 \openout1 = `thesis_SfS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
@@ -815,6 +815,18 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 
 Package xcolor Warning: Incompatible color definition on input line 32.
+
+
+Package xcolor Warning: Incompatible color definition on input line 33.
+
+
+Package xcolor Warning: Incompatible color definition on input line 34.
+
+
+Package xcolor Warning: Incompatible color definition on input line 35.
+
+
+Package xcolor Warning: Incompatible color definition on input line 36.
 
 )
 \tf@toc=\write4
@@ -1135,7 +1147,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [4]
-<images/mean_contribution.png, id=337, 975.645pt x 474.8139pt>
+<images/mean_contribution.png, id=357, 975.645pt x 474.8139pt>
 File: images/mean_contribution.png Graphic file (type png)
 <use images/mean_contribution.png>
 Package pdftex.def Info: images/mean_contribution.png  used on input line 226.
@@ -1340,6 +1352,12 @@ Chapter 3.
 Package xcolor Warning: Incompatible color definition on input line 269.
 
 
+Package xcolor Warning: Incompatible color definition on input line 269.
+
+
+Package xcolor Warning: Incompatible color definition on input line 269.
+
+
 Package xcolor Warning: Incompatible color definition on input line 275.
 
 
@@ -1348,7 +1366,7 @@ Package xcolor Warning: Incompatible color definition on input line 278.
 
 
 [9]
-<images/flat_data.png, id=460, 1006.7211pt x 630.9171pt>
+<images/flat_data.png, id=483, 1006.7211pt x 630.9171pt>
 File: images/flat_data.png Graphic file (type png)
 <use images/flat_data.png>
 Package pdftex.def Info: images/flat_data.png  used on input line 281.
@@ -1363,14 +1381,11 @@ Package xcolor Warning: Incompatible color definition on input line 286.
 
 Package xcolor Warning: Incompatible color definition on input line 286.
 
-<images/timeseries_data.png, id=463, 1156.32pt x 867.24pt>
+<images/timeseries_data.png, id=486, 1156.32pt x 867.24pt>
 File: images/timeseries_data.png Graphic file (type png)
 <use images/timeseries_data.png>
 Package pdftex.def Info: images/timeseries_data.png  used on input line 289.
 (pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [10 <./images/flat_data.png>]
@@ -1459,7 +1474,7 @@ Package xcolor Warning: Incompatible color definition on input line 346.
 
 Package xcolor Warning: Incompatible color definition on input line 348.
 
-<images/pca_partition.png, id=522, 1115.66812pt x 819.8128pt>
+<images/pca_partition.png, id=545, 1115.66812pt x 819.8128pt>
 File: images/pca_partition.png Graphic file (type png)
 <use images/pca_partition.png>
 Package pdftex.def Info: images/pca_partition.png  used on input line 352.
@@ -1498,7 +1513,7 @@ Package xcolor Warning: Incompatible color definition on input line 371.
 
 Package xcolor Warning: Incompatible color definition on input line 388.
 
-<images/lstm_fig.png, id=552, 433.62pt x 389.382pt>
+<images/lstm_fig.png, id=575, 433.62pt x 389.382pt>
 File: images/lstm_fig.png Graphic file (type png)
 <use images/lstm_fig.png>
 Package pdftex.def Info: images/lstm_fig.png  used on input line 392.
@@ -1528,12 +1543,9 @@ Package xcolor Warning: Incompatible color definition on input line 403.
 Package xcolor Warning: Incompatible color definition on input line 403.
 
 
-Underfull \vbox (badness 3138) has occurred while \output is active []
-
-
 
 [18 <./images/lstm_fig.png>]
-<images/test_train_fig.png, id=577, 433.62pt x 380.841pt>
+<images/test_train_fig.png, id=600, 433.62pt x 380.841pt>
 File: images/test_train_fig.png Graphic file (type png)
 <use images/test_train_fig.png>
 Package pdftex.def Info: images/test_train_fig.png  used on input line 420.
@@ -1570,7 +1582,7 @@ Package xcolor Warning: Incompatible color definition on input line 435.
 [21
 
 ]
-<images/vardecomp.png, id=603, 1019.7297pt x 804.3651pt>
+<images/vardecomp.png, id=626, 1019.7297pt x 804.3651pt>
 File: images/vardecomp.png Graphic file (type png)
 <use images/vardecomp.png>
 Package pdftex.def Info: images/vardecomp.png  used on input line 444.
@@ -1602,7 +1614,7 @@ Package xcolor Warning: Incompatible color definition on input line 457.
 
 
 [23]
-<images/dominant.png, id=622, 675.0018pt x 575.2692pt>
+<images/dominant.png, id=645, 675.0018pt x 575.2692pt>
 File: images/dominant.png Graphic file (type png)
 <use images/dominant.png>
 Package pdftex.def Info: images/dominant.png  used on input line 462.
@@ -1670,7 +1682,7 @@ Package xcolor Warning: Incompatible color definition on input line 471.
 
 Package xcolor Warning: Incompatible color definition on input line 477.
 
-<images/pca_explainedvar3.png, id=649, 1101.3948pt x 513.8397pt>
+<images/pca_explainedvar3.png, id=672, 1101.3948pt x 513.8397pt>
 File: images/pca_explainedvar3.png Graphic file (type png)
 <use images/pca_explainedvar3.png>
 Package pdftex.def Info: images/pca_explainedvar3.png  used on input line 480.
@@ -1790,81 +1802,81 @@ ma-tol-ogy\T1/aer/m/n/10.95 , 38(4):1760--1776.  _eprint:
 [32]
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 312--316
 []\T1/aer/m/n/10.95 Lupo, A. R. (2021).  At-mo-spheric block-ing events: a re-v
 iew.  \T1/aer/m/it/10.95 An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 312--316
 \T1/aer/m/it/10.95 nals of the New York Academy of Sci-ences\T1/aer/m/n/10.95 ,
  1504(1):5--24.  _eprint:
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 318--325
+Underfull \hbox (badness 5939) in paragraph at lines 332--339
 []\T1/aer/m/n/10.95 McKinnon, K. A., Rhines, A., Tin-gley, M. P., and Huy-bers,
  P. (2016).
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 318--325
+Underfull \hbox (badness 3872) in paragraph at lines 332--339
 \T1/aer/m/it/10.95 Jour-nal of Geo-phys-i-cal Re-search: At-mo-spheres\T1/aer/m
 /n/10.95 , 121(15):8849--8868.  _eprint:
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 340--347
+
+[34]
+Underfull \hbox (badness 1466) in paragraph at lines 354--361
 \T1/aer/m/n/10.95 Boisvert, L. N. (2016).  Melt on-set over Arc-tic sea ice con
 -trolled by at-mo-
  []
 
 
-
-[34]
-Underfull \hbox (badness 4378) in paragraph at lines 368--374
+Underfull \hbox (badness 4378) in paragraph at lines 382--388
 []\T1/aer/m/n/10.95 Papritz, L. and Röth-lis-berger, M. (2023).  A Novel Tem-pe
 r-a-ture Anomaly
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 368--374
+Underfull \hbox (badness 1033) in paragraph at lines 382--388
 \T1/aer/m/n/10.95 cific North-west.  \T1/aer/m/it/10.95 Geo-phys-i-cal Re-searc
 h Let-ters\T1/aer/m/n/10.95 , 50(23):e2023GL105641.  _eprint:
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 376--383
+Underfull \hbox (badness 2503) in paragraph at lines 390--397
 []\T1/aer/m/n/10.95 Pearson, K. (1901).  LIII. On lines and planes of clos-est 
 fit to sys-tems of
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 376--383
+Underfull \hbox (badness 1448) in paragraph at lines 390--397
 \T1/aer/m/n/10.95 points in space.  \T1/aer/m/it/10.95 The Lon-don, Ed-in-burgh
 , and Dublin Philo-soph-i-cal Mag-a-zine
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 376--383
+Underfull \hbox (badness 1371) in paragraph at lines 390--397
 \T1/aer/m/it/10.95 and Jour-nal of Sci-ence\T1/aer/m/n/10.95 , 2(11):559--572. 
  Pub-lisher: Tay-lor & Fran-cis _eprint:
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 398--405
+Underfull \hbox (badness 3250) in paragraph at lines 412--419
 []\T1/aer/m/n/10.95 Pfahl, S. and Wernli, H. (2012).  Quan-ti-fy-ing the rel-e-
 vance of at-mo-spheric
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 398--405
+Underfull \hbox (badness 2189) in paragraph at lines 412--419
 \T1/aer/m/n/10.95 block-ing for co-located tem-per-a-ture ex-tremes in the Nort
 h-ern Hemi-sphere on
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 398--405
+Underfull \hbox (badness 6775) in paragraph at lines 412--419
 \T1/aer/m/n/10.95 (sub-)daily time scales.  \T1/aer/m/it/10.95 Geo-phys-i-cal R
 e-search Let-ters\T1/aer/m/n/10.95 , 39(12).  _eprint:
  []
@@ -1874,19 +1886,19 @@ e-search Let-ters\T1/aer/m/n/10.95 , 39(12).  _eprint:
 [35]
 
 [36]
-Underfull \hbox (badness 2469) in paragraph at lines 552--560
+Underfull \hbox (badness 2469) in paragraph at lines 566--574
 []\T1/aer/m/n/10.95 Wehrli, K., Guil-lod, B. P., Hauser, M., Leclair, M., and S
 enevi-ratne, S. I.
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 552--560
+Underfull \hbox (badness 4279) in paragraph at lines 566--574
 \T1/aer/m/n/10.95 (2019).  Iden-ti-fy-ing Key Driv-ing Pro-cesses of Ma-jor Re-
 cent Heat Waves.
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 552--560
+Underfull \hbox (badness 1975) in paragraph at lines 566--574
 \T1/aer/m/it/10.95 Jour-nal of Geo-phys-i-cal Re-search: At-mo-spheres\T1/aer/m
 /n/10.95 , 124(22):11746--11765.  _eprint:
  []
@@ -1903,7 +1915,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 552--560
 
 ]
 Appendix A.
-<images/sup1.png, id=745, 1156.32pt x 867.24pt>
+<images/sup1.png, id=768, 1156.32pt x 867.24pt>
 File: images/sup1.png Graphic file (type png)
 <use images/sup1.png>
 Package pdftex.def Info: images/sup1.png  used on input line 16.
@@ -1911,7 +1923,7 @@ Package pdftex.def Info: images/sup1.png  used on input line 16.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sup2.png, id=746, 1156.32pt x 867.24pt>
+<images/sup2.png, id=769, 1156.32pt x 867.24pt>
 File: images/sup2.png Graphic file (type png)
 <use images/sup2.png>
 Package pdftex.def Info: images/sup2.png  used on input line 22.
@@ -1919,7 +1931,7 @@ Package pdftex.def Info: images/sup2.png  used on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sup3.png, id=747, 1156.32pt x 867.24pt>
+<images/sup3.png, id=770, 1156.32pt x 867.24pt>
 File: images/sup3.png Graphic file (type png)
 <use images/sup3.png>
 Package pdftex.def Info: images/sup3.png  used on input line 28.
@@ -1936,63 +1948,85 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [41 <./images/sup3.png>]
 \openout2 = `tex/Appendix2.aux'.
 
-(tex/Appendix2.tex)
+(tex/Appendix2.tex
 
 [42
 
 
 
+
 ]
-<pdf/confirmation-originality.pdf, id=772, 597.50829pt x 845.0471pt>
+Appendix B.
+)
+
+[43]
+\openout2 = `tex/Appendix3.aux'.
+
+(tex/Appendix3.tex
+
+[44
+
+
+
+
+]
+Appendix C.
+)
+
+[45]
+
+[46
+
+
+
+]
+<pdf/confirmation-originality.pdf, id=812, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
-50.
+51.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf>
 Package pdftex.def Info: pdf/confirmation-originality.pdf  used on input line 5
-50.
+51.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pdf/confirmation-originality.pdf, id=775, page=1, 597.50829pt x 845.0471pt>
+<pdf/confirmation-originality.pdf, id=815, page=1, 597.50829pt x 845.0471pt>
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 550.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: pdf/confirmation-originality.pdf Graphic file (type pdf)
-<use pdf/confirmation-originality.pdf, page 1>
-Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 550.
+ line 551.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 550.
+ line 551.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 550.
+ line 551.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/confirmation-originality.pdf Graphic file (type pdf)
+<use pdf/confirmation-originality.pdf, page 1>
+Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
+ line 551.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
 File: pdf/confirmation-originality.pdf Graphic file (type pdf)
 <use pdf/confirmation-originality.pdf, page 1>
 Package pdftex.def Info: pdf/confirmation-originality.pdf , page1 used on input
- line 550.
+ line 551.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[43
-
-
-
+[47
 
  <./pdf/confirmation-originality.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
 (thesis_SfS.aux (tex/Preface.aux) (tex/Abstract.aux) (tex/Appendix1.aux) (tex/A
-ppendix2.aux))
+ppendix2.aux) (tex/Appendix3.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -2001,16 +2035,16 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `thesis_SfS.out' has not changed.
-(rerunfilecheck)             Checksum: C13A71684C895A33CE2437A5384C8E18;5697.
+(rerunfilecheck)             Checksum: B81A4B1EF6DC744B946B738786171489;6471.
  ) 
 Here is how much of TeX's memory you used:
- 17856 strings out of 473904
- 290036 string characters out of 5725656
+ 17898 strings out of 473904
+ 291142 string characters out of 5725656
  1955908 words of memory out of 5000000
- 40155 multiletter control sequences out of 15000+600000
+ 40181 multiletter control sequences out of 15000+600000
  610980 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,19n,107p,1553b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,19n,107p,1553b,717s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Corkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1095.pk><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmb10.pfb><C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -2045,9 +2079,9 @@ Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Corkma
 n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><
 C:/Users/Corkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb>
-Output written on thesis_SfS.pdf (49 pages, 5447086 bytes).
+Output written on thesis_SfS.pdf (53 pages, 5455473 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1003 PDF objects out of 1200 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 
